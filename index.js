@@ -16,16 +16,12 @@ app.use(bodyParser.urlencoded({limit: "50mb",extended : true}));
 app.use(cors());
 
 //DB connection
-const DB_URL = "mongodb+srv://bharat:bharat@cluster0.rn9h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const DB_URL = "mongodb+srv://bharatpaliwal:bharat1234@cluster0.qxt0c.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(DB_URL)
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
   .catch((error) => console.log(`${error} did not connect`));
-
-  //this line crashes the code : issue
-// mongoose.set('useFindAndModify', false);
-
 
 // here /posts is the prefix that we assign to the / route
 app.use('/posts',postRoutes);
