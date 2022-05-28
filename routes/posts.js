@@ -12,12 +12,16 @@ import express from 'express';
 // export default router;
 
 
-import {getPosts,createPost} from '../controllers/posts.js';
+import {getPosts,createPost,
+  updatePost,deletePost,likePost
+} from '../controllers/posts.js';
 const router = express.Router();
 
 router.get('/', getPosts);
 router.post('/', createPost);
-
+router.patch('/:id', updatePost); // dynamic id
+router.delete('/:id', deletePost);
+router.patch('/:id/likePost', likePost); 
 export default router;
 
 // we will use this structure to provide better code read.
