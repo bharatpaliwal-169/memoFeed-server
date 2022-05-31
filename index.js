@@ -4,10 +4,10 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-
+import webpush from 'web-push';
 //import routes here
 import postRoutes from './routes/posts.js';
-
+import notify from './routes/notify.js'
 
 //basic setups
 const app = express();
@@ -25,3 +25,10 @@ mongoose.connect(DB_SERVER_URL)
 
 // here /posts is the prefix that we assign to the / route
 app.use('/posts',postRoutes);
+
+//notification
+const publicVapidKey = process.env.PUBLIC_KEY;
+const privateVapidKey = process.env.PRIVATE_KEY;
+
+webpush.setVapidDetails("mailto:pratice.development@gmail.com",publicVapidKey,privateVapidKey);
+app.use("/subscribe",notify);
