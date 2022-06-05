@@ -1,18 +1,18 @@
 import mongoose from 'mongoose';
 
-
 // we create a schema as fun wih some objects, with schemas 
 // we make document about the way we want data. 
 
 const postSchema = mongoose.Schema({
   title: String,
   message: String,
+  name:String,
   creator: String,
   tags: [String],
   selectedFile: String,
-  likeCount: {
-      type: Number,
-      default: 0,
+  likes: {
+      type:[String],
+      default:[],
   },
   createdAt: {
       type: Date,
