@@ -1,7 +1,9 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import auth from "../models/auth.js"
-
+import dotenv from 'dotenv';
+dotenv.config()
+const SECRET = process.env.SECRET;
 
 export const login = async (req, res) => {
   //get required vars from frontend request
@@ -19,8 +21,8 @@ export const login = async (req, res) => {
     }
 
     // const token = jwt.sign({email : existingUser.email, id:existingUser.id}, "SECRET", { expiresIn: "1h" });
-    console.log(existingUser);
-    const token = jwt.sign({id:existingUser._id}, "SECRET", { expiresIn: "1h" });
+    // console.log(existingUser);
+    const token = jwt.sign({id:existingUser._id}, SECRET, { expiresIn: "1h" });
     
     res.status(200).json({result : existingUser,token:token });
   }
@@ -46,7 +48,7 @@ export const signup = async (req, res) => {
 
     const result = await auth.create({email, password: hashPassword,name : `${firstName} ${lastName}`});
     console.log(result);
-    const token = jwt.sign({email : result.email, id:result.id}, "SECRET", { expiresIn: "1h" });
+    const token = jwt.sign({email : result.email, id:result._id}, SECRET, { expiresIn: "1h" });
     res.status(200).json({result,token});
   } catch (error) {
     res.status(500).json({message: "something went wrong " + error.message});
