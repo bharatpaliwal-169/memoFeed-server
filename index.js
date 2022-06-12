@@ -35,3 +35,7 @@ const privateVapidKey = process.env.PRIVATE_KEY;
 
 webpush.setVapidDetails(`mailto:${process.env.EMAIL_ID}`,publicVapidKey,privateVapidKey);
 app.use("/subscribe",notify);
+
+app.get('/',(req, res) => {
+  res.send("APP is UP n RUNNING");
+});
