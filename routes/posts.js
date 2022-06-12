@@ -12,8 +12,8 @@ import express from 'express';
 // export default router;
 
 
-import {getPosts,createPost,
-  updatePost,deletePost,likePost
+import {getPosts,createPost,getPostsBySearch,
+  updatePost,deletePost,likePost,getPost
 } from '../controllers/posts.js';
 
 import auth from '../middleware/auth.js';
@@ -21,10 +21,13 @@ import auth from '../middleware/auth.js';
 const router = express.Router();
 
 router.get('/', getPosts);
+router.get('/search',getPostsBySearch); 
+router.get('/:id', getPost);
+//need authentication
 router.post('/',auth,createPost);
 router.patch('/:id',auth,updatePost); // dynamic id
 router.delete('/:id',auth,deletePost);
-router.patch('/:id/likePost',auth,likePost); 
+router.patch('/:id/likePost',auth,likePost);
 export default router;
 
 // we will use this structure to provide better code read.
