@@ -23,3 +23,6 @@ used var instead of const. (look into the issues for more information)
     const updatedCurrPost = await PostMessage.findByIdAndUpdate(id , 
             {likeCount: currPost.likeCount + 1},{new:true});
 ```
+
+Deployed using -> paliwalBdev
+on Heroku

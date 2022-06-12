@@ -138,4 +138,20 @@ export const likePost = async (req, res) => {
     res.status(200).json(updatedPost);
 }
 
+
+export const commentPost = async (req, res) => {
+  const {id} = req.params;
+  const {value} = req.body;
+  
+  try {
+    const currPost = await PostMessage.findById(id);
+    currPost.comments.push(value);
+    const updatedPost = await PostMessage.findByIdAndUpdate(id,currPost,{new: true});
+    res.json(updatedPost);
+  } catch (error) {
+    res.json(error.message);
+  }
+}
+
+
 export default router;
