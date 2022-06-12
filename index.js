@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({limit: "50mb",extended : true}));
 app.use(cors());
 dotenv.config()
 //DB connection
-const PORT = process.env.PORT;
+const PORT = process.env.MY_PORT|| process.env.PORT;
 const DB_SERVER_URL = process.env.DB_URL;
 
 mongoose.connect(DB_SERVER_URL)

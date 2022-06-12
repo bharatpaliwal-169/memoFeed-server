@@ -25,4 +25,4 @@ used var instead of const. (look into the issues for more information)
 ```
 
 Deployed using -> paliwalBdev
-on Heroku
+on Heroku ->https://memofeedbackend.herokuapp.com/
