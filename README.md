@@ -26,3 +26,7 @@ used var instead of const. (look into the issues for more information)
 
 Deployed using -> paliwalBdev
 on Heroku ->https://memofeedbackend.herokuapp.com/
+
+
+## future scope
+Build CMS for this project.
