@@ -5,6 +5,9 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import webpush from 'web-push';
+import cluster from 'cluster';
+import os from 'os';
+
 //import routes here
 import postRoutes from './routes/posts.js';
 import notify from './routes/notify.js'
@@ -19,23 +22,39 @@ dotenv.config()
 const PORT = process.env.MY_PORT|| process.env.PORT;
 const DB_SERVER_URL = process.env.DB_URL;
 
-mongoose.connect(DB_SERVER_URL)
-  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
-  .catch((error) => console.log(`${error} did not connect`));
+// Cluster setup
+process.env.UV_THREADPOOL_SIZE = os.cpus().length;
+const noOfCPUs = os.cpus().length;
 
-// here /posts is the prefix that we assign to the / route
-app.use('/posts',postRoutes);
-
-//authentication
-app.use('/auth',authRoutes);
-
-//notification
-const publicVapidKey = process.env.PUBLIC_KEY;
-const privateVapidKey = process.env.PRIVATE_KEY;
-
-webpush.setVapidDetails(`mailto:${process.env.EMAIL_ID}`,publicVapidKey,privateVapidKey);
-app.use("/subscribe",notify);
-
-app.get('/',(req, res) => {
-  res.send("APP is UP n RUNNING");
-});
+if (cluster.isPrimary) {
+  // primary cluster handles orther slave thread
+  for (let i = 0; i < noOfCPUs; i++) {
+    //cluster is making slave thread
+    cluster.fork();
+  }
+  cluster.on('exit', (worker, code, signal) => {
+    console.log(`worker ${worker.process.pid} died`);
+    cluster.fork(); // if dead then remake a new thread
+  });
+}else{
+  mongoose.connect(DB_SERVER_URL)
+    .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
+    .catch((error) => console.log(`${error} did not connect`));
+  
+  // here /posts is the prefix that we assign to the / route
+  app.use('/posts',postRoutes);
+  
+  //authentication
+  app.use('/auth',authRoutes);
+  
+  //notification
+  const publicVapidKey = process.env.PUBLIC_KEY;
+  const privateVapidKey = process.env.PRIVATE_KEY;
+  
+  webpush.setVapidDetails(`mailto:${process.env.EMAIL_ID}`,publicVapidKey,privateVapidKey);
+  app.use("/subscribe",notify);
+  
+  app.get('/',(req, res) => {
+    res.send("APP is UP n RUNNING");
+  });
+}
