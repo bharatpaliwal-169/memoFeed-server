@@ -13,7 +13,8 @@ import express from 'express';
 
 
 import {getPosts,createPost,getPostsBySearch,
-  updatePost,deletePost,likePost,getPost,commentPost
+  updatePost,deletePost,likePost,getPost,commentPost,
+  getStatsForUser
 } from '../controllers/posts.js';
 
 import auth from '../middleware/auth.js';
@@ -23,6 +24,7 @@ const router = express.Router();
 router.get('/', getPosts);
 router.get('/search',getPostsBySearch); 
 router.get('/:id', getPost);
+router.get('/stats/:id',getStatsForUser);
 //need authentication
 router.post('/',auth,createPost);
 router.patch('/:id',auth,updatePost); // dynamic id
