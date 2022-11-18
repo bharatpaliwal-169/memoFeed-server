@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import express from "express"
-import PostMessage from '../models/postMessage.js'
+import PostMessage from '../models/postMessage.js';
 const router = express.Router()
 // application logic is written here
 
@@ -14,7 +14,7 @@ export const getPosts = async (req,res) => {
 
     const posts = await PostMessage.find().sort({_id:-1}).limit(LIMIT).skip(startIndex);
     
-    console.log(posts);
+    // console.log(posts);
 
     res.status(200).json({data : posts,currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
   } catch (error) {
@@ -49,10 +49,11 @@ export const getPost = async (req, res) => {
   const { id } = req.params;
   try {
       const post = await PostMessage.findById(id);
-      
+      post.viewCount++;
+      await PostMessage.findByIdAndUpdate(id,post,{new : true});
       res.status(200).json(post);
   } catch (error) {
-      res.status(404).json({ message: error.message });
+    res.status(404).json({ message: error.message });
   }
 }
 
@@ -118,7 +119,7 @@ export const deletePost = async (req, res) =>{
 
 export const likePost = async (req, res) => {
     const { id } = req.params;
-    console.log(req.userId);
+    // console.log(req.userId);
     if (!req.userId) {
         return res.json({ message: "Unauthenticated" });
       }
@@ -153,5 +154,31 @@ export const commentPost = async (req, res) => {
   }
 }
 
+export const getStatsForUser = async (req, res) => {
+  const { id } = req.params;
+  // console.log("here id -> ", id);
+  try {
+    const totalPosts = await PostMessage.find({ creator : id });
+    var totalLikes = 0;
+    var popularity = 0;
+    totalPosts.map(item => {
+      totalLikes += item.likes.length;
+      popularity += item.viewCount;
+    });
+
+    const resData = {
+      myPosts : totalPosts,
+      totalLikes : totalLikes,
+      totalPosts : totalPosts.length,
+      popularity : popularity
+    }
+    // console.log(resData);
+    
+    res.status(200).json({data : resData});
+  } catch (error) {
+    console.log(error,id);
+    res.status(404).json({ message: error.message });
+  }
+}
 
 export default router;

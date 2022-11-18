@@ -4,13 +4,11 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import webpush from 'web-push';
 import cluster from 'cluster';
 import os from 'os';
 
 //import routes here
 import postRoutes from './routes/posts.js';
-import notify from './routes/notify.js'
 import authRoutes from './routes/auth.js';
 //basic setups
 const app = express();
@@ -46,13 +44,6 @@ if (cluster.isPrimary) {
   
   //authentication
   app.use('/auth',authRoutes);
-  
-  //notification
-  const publicVapidKey = process.env.PUBLIC_KEY;
-  const privateVapidKey = process.env.PRIVATE_KEY;
-  
-  webpush.setVapidDetails(`mailto:${process.env.EMAIL_ID}`,publicVapidKey,privateVapidKey);
-  app.use("/subscribe",notify);
   
   app.get('/',(req, res) => {
     res.send("APP is UP n RUNNING");
