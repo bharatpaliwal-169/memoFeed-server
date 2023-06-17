@@ -4,7 +4,6 @@ import auth from "../models/auth.js"
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 
-// import sendEmail from '../services/Email/index.js'
 dotenv.config()
 const SECRET = process.env.SECRET;
 
@@ -23,11 +22,15 @@ export const login = async (req, res) => {
       return res.status(400).json({message: 'Password is incorrect'});
     }
 
-    // const token = jwt.sign({email : existingUser.email, id:existingUser.id}, "SECRET", { expiresIn: "1h" });
-    // console.log(existingUser);
     const token = jwt.sign({id:existingUser._id}, SECRET, { expiresIn: "1h" });
     
-    res.status(200).json({result : existingUser,token:token });
+    const loggedInUser = {
+      _id : existingUser._id,
+      name : existingUser.name,
+      email : existingUser.email,
+    }
+    console.log(loggedInUser);
+    res.status(200).json({result : loggedInUser,token:token });
   }
   catch(err) {
     res.status(500).json({message: "something went wrong" + err});
@@ -48,7 +51,6 @@ export const signup = async (req, res) => {
     console.log(result);
     const token = jwt.sign({email : result.email, id:result._id}, SECRET, { expiresIn: "1h" });
     
-    // await sendEmail(email,"Verify Account","EMAIL_VERIFICATION",token);
     res.status(200).json({result,token});
   } catch (error) {
     res.status(500).json({message: "something went wrong " + error.message});
