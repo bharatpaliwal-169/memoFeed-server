@@ -17,7 +17,7 @@ const changePswd = (TOKEN) => {
             <h3>Change Password</h3>
             <h4 class="">No worries, we are at your rescue.</h4>
             <p class="">Please click on the below link to go back to your account.</p>
-            <a href="http://localhost:5000/auth/changepassword/?token=${TOKEN}" class="text-bg-primary link-underline">Change My Password</a>
+            <a href="${process.env.PROD_URL}/auth/changepassword/?token=${TOKEN}" class="text-bg-primary link-underline">Change My Password</a>
           </div>
         </div>
 
