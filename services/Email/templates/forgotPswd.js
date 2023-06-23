@@ -17,7 +17,7 @@ const forgotPasswordBody = (TOKEN) => {
             <h3>Forgot Password!</h3>
             <h4 class="">No worries, we are at your rescue.</h4>
             <p class="">Please click on the below link to go back to your account.</p>
-            <a href="http://localhost:5000/auth/forgotpassword/?token=${TOKEN}" class="text-bg-primary link-underline">Forgot Password</a>
+            <a href="${process.env.PROD_URL}/auth/forgotpassword/?token=${TOKEN}" class="text-bg-primary link-underline">Forgot Password</a>
           </div>
         </div>
         <div class="row">

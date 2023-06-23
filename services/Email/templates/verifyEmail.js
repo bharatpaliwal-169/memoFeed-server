@@ -15,7 +15,7 @@ const verifyEmail = (TOKEN) => {
         <div class="col-12 col-md-10 text-center justify-center">
           <h1 class="display-5" style="color:#09779A;font-weight:700">MemoFeed</h1>
           <p class="">Please click on the below link to verify your email.</p>
-          <a href="http://localhost:5000/auth/verification/?token=${TOKEN}" class="text-bg-primary link-underline">verify my email</a>
+          <a href="${process.env.PROD_URL}/auth/verification/?token=${TOKEN}" class="text-bg-primary link-underline">verify my email</a>
         </div>
       </div>
       <div class="row">
