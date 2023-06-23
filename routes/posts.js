@@ -25,6 +25,7 @@ router.get('/', getPosts);
 router.get('/search',getPostsBySearch); 
 router.get('/:id', getPost);
 router.get('/stats/:id',getStatsForUser);
+
 //need authentication
 router.post('/',auth,createPost);
 router.patch('/:id',auth,updatePost); // dynamic id

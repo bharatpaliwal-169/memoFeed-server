@@ -1,26 +1,53 @@
 import mongoose from 'mongoose'
 import express from "express"
 import PostMessage from '../models/postMessage.js';
+import client from '../services/Cache/redis.js'
+
 const router = express.Router()
 // application logic is written here
-
+var flag = false;
 export const getPosts = async (req,res) => {
+  const cacheKey = (process.env.CACHE_KEY).toString();
   const {page} = req.query;
-
   try {
+    //pagination
     const LIMIT = 6; // max no of post on one page
     const startIndex = (Number(page)-1)*LIMIT; // get starting page of each page 
     const total = await PostMessage.countDocuments({});
 
-    const posts = await PostMessage.find().sort({_id:-1}).limit(LIMIT).skip(startIndex);
-    
-    // console.log(posts);
+    // Caching
+    try {
+      
 
-    res.status(200).json({data : posts,currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
+      console.log(flag);
+      if(flag == false && page==1){
+        
+        const cachedData = client.get(cacheKey);
+        if(cachedData === null || cachedData === undefined || cachedData === ""){
+          console.log("nothing in cache");
+        }else{
+          console.log("Sending data from cache!");
+          return res.status(200).json({data : JSON.parse(cachedData), currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
+        }
+      }
+      
+      console.log("Fetching data from DB");
+      //FetchFromDB
+      const posts = await PostMessage.find().sort({_id:-1}).limit(LIMIT).skip(startIndex);
+      if(page==1){
+        client.set(cacheKey, JSON.stringify(posts));
+      }
+      
+      flag = false;
+      // console.log(posts);
+      res.status(200).json({data : posts,currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
+    
+    } catch (error) {
+      console.log("ERROR : " + error.toString());
+    }
   } catch (error) {
     res.status(404).json({message: error.message});
   }
-  
 };
 
 // query /posts?page=1 -> to get data from DB 
@@ -63,11 +90,16 @@ export const createPost = async(req, res) => {
   const post = req.body;
   const newPost = new PostMessage({ ...post, creator: req.userId, createdAt: new Date().toISOString()});
   try {
+    if(post.title.length > 30 || post.message.length > 5000 || post.tags.length > 10){
+      console.warn("invalid data in post")
+      res.status(400).json({message : "Post data is invalid"})
+    }
     await newPost.save();
     res.status(200).json(newPost);
   } catch (error) {
     res.status(404).json({message: error.message});
   }
+  flag = true;
 }
 
 export const updatePost = async(req, res) => {
@@ -78,26 +110,38 @@ export const updatePost = async(req, res) => {
   // }
   // await PostMessage.findByIdAndUpdate(id , updatedpost, {new : true});
   // res.json(updatedPost)
-
-    const { id } = req.params;
-    const { title, message, creator, selectedFile, tags } = req.body;
-    
+  const cacheKey = (process.env.CACHE_KEY).toString();
+  const { id } = req.params;
+  const { title, message, creator, selectedFile, tags } = req.body;
+  try {
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
-
     const updatedPost = { creator, title, message, tags, selectedFile, _id: id };
-    
     await PostMessage.findByIdAndUpdate(id, updatedPost, { new: true });
     
-    res.json(updatedPost);
+      client.del(cacheKey)
+  
+      res.status(200).json({message:`Post updated successfully ${updatedPost}`});
+    } catch (error) {
+      console.log("ERROR in updatePost fn "+ error.toString());
+      res.status(500).json({message : " Something went wrong "});
 
+    }
+    flag = true;
 }
 
 export const deletePost = async (req, res) =>{
+  const cacheKey = (process.env.CACHE_KEY).toString();
   const { id } = req.params;
-  if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
-
-  await PostMessage.findByIdAndRemove(id);
-  res.json({message : 'post is deleted successfully'})
+  try {
+    if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
+    await PostMessage.findByIdAndRemove(id);
+    
+    client.del(cacheKey);
+    res.json({message : 'post is deleted successfully'})
+  } catch (error) {
+    res.status(500).json({message:"Something went wrong"});
+  }
+  flag = true;
 }
 
 
