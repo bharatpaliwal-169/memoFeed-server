@@ -90,6 +90,10 @@ export const createPost = async(req, res) => {
   const post = req.body;
   const newPost = new PostMessage({ ...post, creator: req.userId, createdAt: new Date().toISOString()});
   try {
+    if(post.title.length > 30 || post.message.length > 5000 || post.tags.length > 10){
+      console.warn("invalid data in post")
+      res.status(400).json({message : "Post data is invalid"})
+    }
     await newPost.save();
     res.status(200).json(newPost);
   } catch (error) {
