@@ -135,16 +135,20 @@ export const forgotPswdReq = async(req,res) => {
     
     const id = user._id ? user._id : "";
     if (!mongoose.Types.ObjectId.isValid(id)){
-      console.error(`[v2.controller.js] invalid id --> ${id}`);
+      console.error(`invalid id --> ${id}`);
       return res.status(500).json({message:"Something went wrong"});
     }
     
     const token = jwt.sign({email:user.email},SECRET, {expiresIn:"1h"});
 
-    console.info(`[forgotPaswdReq] sent mail to user with FP request with token -> ${JSON.stringify(token)}`);
+    // console.info(`[forgotPaswdReq] sent mail to user with FP request with token -> ${JSON.stringify(token)}`);
 
-    sendEmail(user.email, "MemoFeed - Forgot Password", "FORGOTPASSWORD", token);
-    res.status(200).json({message:"We have sent you a email"});
+    const emailStatus = sendEmail(user.email, "MemoFeed - Forgot Password", "FORGOTPASSWORD", token,user.name);
+    if(emailStatus === "OK"){
+      res.status(200).json({message:"We have sent you a email"});
+    }else{
+      res.status(400).json({message:"Something went wrong. Please try again later."});
+    }
   
   } catch (error) {
     console.error(`[forgotPswdReq] ${error.message}`);
@@ -153,39 +157,39 @@ export const forgotPswdReq = async(req,res) => {
 };
 
 
-export const forgotPassword = async(req,res) => {
-  console.info("forgotPassword method started");
-  // should fwd to changepassword
-  const {token} = req.query;
-  try {
-    const decodedData = jwt.verify(token,SECRET);
-    if(!decodedData) {
-      console.warn("[forgotPassword] : " + decodedData + " invalid ");
-      res.status(403).json({message:"forgot Password link expired"});
-    }
-    const email = decodedData?.email;
-    if(!email){
-      console.warn("[forgotPassword] Invalid data from " + decodedData);
-      res.status(400).json({message:"Something went wrong",isValid:false});
-    }
+// export const forgotPassword = async(req,res) => {
+//   console.info("forgotPassword method started");
+//   // should fwd to changepassword
+//   const {token} = req.query;
+//   try {
+//     const decodedData = jwt.verify(token,SECRET);
+//     if(!decodedData) {
+//       console.warn("[forgotPassword] : " + decodedData + " invalid ");
+//       res.status(403).json({message:"forgot Password link expired"});
+//     }
+//     const email = decodedData?.email;
+//     if(!email){
+//       console.warn("[forgotPassword] Invalid data from " + decodedData);
+//       res.status(400).json({message:"Something went wrong",isValid:false});
+//     }
 
-    const user = await auth.findOne({email});
+//     const user = await auth.findOne({email});
     
-    if(!user){
-      console.warn(`[forgotpassword] request expired ${token}`);
-      return res.status(401).json({message:"Request expired!",isValid:false});
-    }
+//     if(!user){
+//       console.warn(`[forgotpassword] request expired ${token}`);
+//       return res.status(401).json({message:"Request expired!",isValid:false});
+//     }
 
-    console.info(`[forgotPassword]: This user have requested FP -> ${JSON.stringify(user.username)}`);
+//     console.info(`[forgotPassword]: This user have requested FP -> ${JSON.stringify(user.name)}`);
 
-    // fwd him to change password method
+//     // fwd him to change password method
     
-    res.status(202).json({message:"You can now access your account",isValid:true});
-  } catch (error) {
-    console.error(`[forgotPassword]: ${error.message}`);
-  }
-  console.info("forgotPassword method completed");
-};
+//     res.status(202).json({message:"You can now access your account",isValid:true});
+//   } catch (error) {
+//     console.error(`[forgotPassword]: ${error.message}`);
+//   }
+//   console.info("forgotPassword method completed");
+// };
 
 
 export const changePasswordReq = async(req,res) => {
@@ -200,27 +204,29 @@ export const changePasswordReq = async(req,res) => {
     }
     
 
-    const token = jwt.sign({email:user.email},SECRET, {expiresIn:"5m"} );
+    const token = jwt.sign({email:user.email},SECRET, {expiresIn:"1h"} );
 
-    sendEmail(user.email,"MemoFeed - Change Password","CHANGEPASSWORD",token);
-    res.status(200).json({message:"sent a email with your request"});
+    const emailStatus = sendEmail(user.email,"MemoFeed - Change Password","CHANGEPASSWORD",token,user.name);
+    // const emailStatus = "ERROR"
+    if(emailStatus === "OK"){
+      res.status(200).json({message:"sent a email with your request"});
+    }else{
+      res.status(500).json({message : "Failed to send email,Please try after sometime."});
+    }
 
   } catch (error) {
     console.error(`[changePasswordReq]:  ${JSON.stringify(error.message)}`);
     res.status(500).json({message:"Something went wrong."});
   }
-
-  console.info("user have been sent a mail for CP req");
 }
-
 
 export const changePassword = async(req,res) => {
   console.info("Got changePassword request ");
 
-  const {token} = req.query;
-  const {password,confirmPassword} = req.body;
-  
+  // const {token} = req.query;
+  const {password,confirmPassword,token} = req.body;
   try {
+    console.log(token);
     const decodedData = jwt.verify(token,SECRET);
     if(!decodedData) {
       console.warn("[changePassword] : " + decodedData + " invalid ");

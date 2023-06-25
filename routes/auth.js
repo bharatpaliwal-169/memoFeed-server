@@ -1,7 +1,8 @@
 import express from 'express';
 
-import {login,signup,deleteAccount, verifyUserReq,verifyUser,forgotPassword,forgotPswdReq
-  ,changePassword,changePasswordReq
+import {login,signup,deleteAccount, verifyUserReq,verifyUser,
+  // forgotPassword,
+  forgotPswdReq,changePassword,changePasswordReq
 } from '../controllers/auth.js';
 
 const router = express.Router();
@@ -15,6 +16,6 @@ router.get('/verification',verifyUser);
 router.post('/changepswd/request',changePasswordReq);
 router.post('/changepassword',changePassword);
 router.post('/forgotpswd/request',forgotPswdReq);
-router.get('/forgotpassword',forgotPassword);
+// router.get('/forgotpassword',forgotPassword);
 
 export default router;
