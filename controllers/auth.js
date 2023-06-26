@@ -30,6 +30,7 @@ export const login = async (req, res) => {
       _id : existingUser._id,
       name : existingUser.name,
       email : existingUser.email,
+      verified : existingUser.verified
     }
     console.log(loggedInUser);
     res.status(200).json({result : loggedInUser,token:token });
