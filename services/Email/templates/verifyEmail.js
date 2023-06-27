@@ -18,7 +18,7 @@ const verifyEmail = (TOKEN,name) => {
           <p>Greetings for the day! </p>
           <br/>
           <p class="">Please click on the below link to verify your email.</p>
-          <a href="${process.env.CLIENT_DEV_URL}/auth/verification/?token=${TOKEN}" rel="noopener nofollow noreferrer preconnect" class="text-bg-primary link-underline">verify my email</a>
+          <a href="${process.env.CLIENT_PROD_URL}/auth/verification/?token=${TOKEN}" rel="noopener nofollow noreferrer preconnect" class="text-bg-primary link-underline">verify my email</a>
         </div>
       </div>
       <div class="row">

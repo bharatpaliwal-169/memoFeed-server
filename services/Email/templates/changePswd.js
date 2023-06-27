@@ -19,7 +19,7 @@ const changePswd = (TOKEN,name) => {
             <br/>
             <h4 class="">We heard you want to change your password.</h4>
             <p class="">Please click on the below magic link to change password of your account.</p>
-            <a href="${process.env.CLIENT_DEV_URL}/auth/changepassword/?token=${TOKEN}" rel="noopener nofollow noreferrer preconnect" class="text-bg-primary link-underline">Change My Password</a>
+            <a href="${process.env.CLIENT_PROD_URL}/auth/changepassword/?token=${TOKEN}" rel="noopener nofollow noreferrer preconnect" class="text-bg-primary link-underline">Change My Password</a>
           </div>
         </div>
 
