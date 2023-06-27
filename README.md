@@ -31,9 +31,3 @@ on Heroku ->https://memofeedbackend.herokuapp.com/
 Heroku migration (due to end of Free service)
 on OnRender -> https://memofeed-backend.onrender.com/ 
 
-
-## future scope
-Build CMS for this project.
-profile Page
-Tag filter page
-peformance improvements

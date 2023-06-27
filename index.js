@@ -60,5 +60,3 @@ if (cluster.isPrimary) {
     res.send("APP is UP n RUNNING");
   });
 }
-
-// Mock();

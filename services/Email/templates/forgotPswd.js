@@ -1,4 +1,4 @@
-const forgotPasswordBody = (TOKEN) => {
+const forgotPasswordBody = (TOKEN,name) => {
   return `
     <!DOCTYPE html>
     <html lang="en">
@@ -14,10 +14,13 @@ const forgotPasswordBody = (TOKEN) => {
         <div class="row">
           <div class="col-12 col-md-10 text-center align-items-center justify-content-center">
             <h1 class="display-3" style="color:#09779A;font-weight:700" >MemoFeed</h1>
+            <h2 class="display-4">Hi ${name},</h2>
+            <p>Greetings for the day! </p>
+            <br/>
             <h3>Forgot Password!</h3>
             <h4 class="">No worries, we are at your rescue.</h4>
-            <p class="">Please click on the below link to go back to your account.</p>
-            <a href="${process.env.PROD_URL}/auth/forgotpassword/?token=${TOKEN}" class="text-bg-primary link-underline">Forgot Password</a>
+            <p class="">Please click on the below link to recover your account.</p>
+            <a href="${process.env.CLIENT_DEV_URL}/auth/changepassword/?token=${TOKEN}" rel="noopener nofollow noreferrer preconnect" class="text-bg-primary link-underline">Forgot Password</a>
           </div>
         </div>
         <div class="row">
