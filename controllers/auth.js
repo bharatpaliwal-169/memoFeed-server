@@ -89,7 +89,7 @@ export const verifyUserReq = async(req,res) => {
     }
     const token = jwt.sign( {email:user.email} ,SECRET ,{ expiresIn: "1h"});
     console.info("Token generated for " + user.name + "  token->  " + token);
-    sendEmail(user.email,"Memofeed - Email Verification","EMAILVERIFY",token);
+    sendEmail(user.email,"Memofeed - Email Verification","EMAILVERIFY",token,user.name);
     res.status(200).json({message:"Email have been sent."});
   } catch (error) {
     console.error("[verifyEmailReq] : "+error.message);
