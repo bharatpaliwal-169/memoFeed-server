@@ -31,3 +31,10 @@ on Heroku ->https://memofeedbackend.herokuapp.com/
 Heroku migration (due to end of Free service)
 on OnRender -> https://memofeed-backend.onrender.com/ 
 
+# Testing
+Using JEST
+firstly, install jest as devDeps.
+then make config.
+then describe a test case.
+run.
+

@@ -59,4 +59,7 @@ if (cluster.isPrimary) {
   app.get('/',(req, res) => {
     res.send("APP is UP n RUNNING");
   });
+  app.get('/*',(req,res)=> {
+    res.send("Undefined endpoint!")
+  });
 }
