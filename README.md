@@ -27,7 +27,27 @@ used var instead of const. (look into the issues for more information)
 Deployed using -> paliwalBdev
 on Heroku ->https://memofeedbackend.herokuapp.com/
 
-# UPDATE
+## UPDATE
 Heroku migration (due to end of Free service)
 on OnRender -> https://memofeed-backend.onrender.com/ 
 
+#### Testing(DROP)
+Using JEST
+firstly, install jest as devDeps.
+then make config.
+then describe a test case.
+run.
+
+
+
+## Major Code Updates:
+
+1) removed body-parser(depreciated),node-cron, jest,supertest, redis.
+2) app basic setup update
+3) added a new logger service : winston
+4) email templates updated.
+
+
+## Features in PIPELINE:
+1) input sanitze and restriction
+2) UI changes

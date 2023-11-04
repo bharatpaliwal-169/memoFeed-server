@@ -5,6 +5,8 @@ import verifyEmail from './templates/verifyEmail.js'
 import forgotPasswordBody from './templates/forgotPswd.js';
 import changePswd from './templates/changePswd.js'
 
+import logger from '../Logger/index.js'
+
 dotenv.config()
 const sendEmail = (reciptent,subject,type,TOKEN,name) =>{
   const transporter = nodemailer.createTransport({
@@ -40,15 +42,15 @@ const sendEmail = (reciptent,subject,type,TOKEN,name) =>{
   try {
     transporter.sendMail(mailOptions,function(err,info){
       if(err){
-        console.log(`[email.js] ERROR: ${err.message}`);
+        logger.error(`[email.js] ERROR: ${err.message}`);
         return "ERROR"
       }else{
-        console.log(`[email.js] ${JSON.stringify(info)}`);
+        logger.info(`[email.js] ${JSON.stringify(info)}`);
       }
     });
     return "OK";
   } catch (error) {
-    console.log(error.message);
+    logger.error(error.message);
     return "ERROR"
   }
 };

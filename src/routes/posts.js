@@ -18,20 +18,21 @@ import {getPosts,createPost,getPostsBySearch,
 } from '../controllers/posts.js';
 
 import auth from '../middleware/auth.js';
+import logMid from '../middleware/logMiddleware.js';
 
 const router = express.Router();
 
-router.get('/', getPosts);
-router.get('/search',getPostsBySearch); 
-router.get('/:id', getPost);
-router.get('/stats/:id',getStatsForUser);
+router.get('/',logMid, getPosts);
+router.get('/search',logMid,getPostsBySearch); 
+router.get('/:id',logMid, getPost);
+router.get('/stats/:id',logMid,getStatsForUser);
 
 //need authentication
-router.post('/',auth,createPost);
-router.patch('/:id',auth,updatePost); // dynamic id
-router.delete('/:id',auth,deletePost);
-router.patch('/:id/likePost',auth,likePost);
-router.post('/:id/commentPost',auth,commentPost);
+router.post('/',auth,logMid,createPost);
+router.patch('/:id',auth,logMid,updatePost); // dynamic id
+router.delete('/:id',auth,logMid,deletePost);
+router.patch('/:id/likePost',logMid,auth,likePost);
+router.post('/:id/commentPost',auth,logMid,commentPost);
 
 export default router;
 

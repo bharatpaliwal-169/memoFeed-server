@@ -1,12 +1,18 @@
 import mongoose from 'mongoose'
 import express from "express"
+
 import PostMessage from '../models/postMessage.js';
 import client from '../services/Cache/redis.js'
 
+import logger from '../services/Logger/index.js'
+
 const router = express.Router()
+
 // application logic is written here
 var flag = false;
+
 export const getPosts = async (req,res) => {
+
   const cacheKey = (process.env.CACHE_KEY).toString();
   const {page} = req.query;
   try {
@@ -17,21 +23,19 @@ export const getPosts = async (req,res) => {
 
     // Caching
     try {
-      
 
-      console.log(flag);
       if(flag == false && page==1){
         
         const cachedData = client.get(cacheKey);
         if(cachedData === null || cachedData === undefined || cachedData === ""){
-          console.log("nothing in cache");
+          logger.info("[controllers/getPosts] nothing in cache!!");
         }else{
-          console.log("Sending data from cache!");
+          logger.info("[controllers/getPosts] Sending data from cache!");
           return res.status(200).json({data : JSON.parse(cachedData), currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
         }
       }
       
-      console.log("Fetching data from DB");
+      logger.info("[controllers/getPosts] Fetching data from DB");
       //FetchFromDB
       const posts = await PostMessage.find().sort({_id:-1}).limit(LIMIT).skip(startIndex);
       if(page==1){
@@ -39,14 +43,15 @@ export const getPosts = async (req,res) => {
       }
       
       flag = false;
-      // console.log(posts);
+      // logger.info(posts);
       res.status(200).json({data : posts,currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
     
     } catch (error) {
-      console.log("ERROR : " + error.toString());
+      logger.error("[controllers/getPosts] ERROR : " + error.toString());
     }
   } catch (error) {
-    res.status(404).json({message: error.message});
+    logger.error("[controllers/getPosts] ERROR");
+    res.status(404).json({message: "Something went wrong"});
   }
 };
 
@@ -54,20 +59,18 @@ export const getPosts = async (req,res) => {
 //params /posts/:id (id===12332) -> to get some specific resource
 
 export const getPostsBySearch = async (req, res) => {
+  logger.info("[controllers/getPostsBySearch] Started");
   const {searchQuery,tags} = req.query;
+  
   try {
     const title = new RegExp(searchQuery, 'i'); // all will be same -> TEST,Test,TEst,test anything
-    // const posts = await PostMessage.find({
-    //   $or : [
-    //     {title},
-    //     {tags : {$in: tags.split(',')}}
-    //   ]
-    // })
     const posts = await PostMessage.find({ $or: [ { title }, { tags: { $in: tags.split(',') } } ]});
-    res.json({data:posts});
+    res.status(200).json({data:posts});
+    
   } catch (error) {
     res.status(404).json({message: error.message});
   }
+  logger.info("[controllers/getPostsBySearch] Ended Successfully.");
 }
 
 
@@ -122,7 +125,7 @@ export const updatePost = async(req, res) => {
   
       res.status(200).json({message:`Post updated successfully ${updatedPost}`});
     } catch (error) {
-      console.log("ERROR in updatePost fn "+ error.toString());
+      logger.info("ERROR in updatePost fn "+ error.toString());
       res.status(500).json({message : " Something went wrong "});
 
     }
@@ -163,7 +166,7 @@ export const deletePost = async (req, res) =>{
 
 export const likePost = async (req, res) => {
     const { id } = req.params;
-    // console.log(req.userId);
+    // logger.info(req.userId);
     if (!req.userId) {
         return res.json({ message: "Unauthenticated" });
       }
@@ -200,7 +203,7 @@ export const commentPost = async (req, res) => {
 
 export const getStatsForUser = async (req, res) => {
   const { id } = req.params;
-  // console.log("here id -> ", id);
+  // logger.info("here id -> ", id);
   try {
     const totalPosts = await PostMessage.find({ creator : id });
     var totalLikes = 0;
@@ -216,11 +219,11 @@ export const getStatsForUser = async (req, res) => {
       totalPosts : totalPosts.length,
       popularity : popularity
     }
-    // console.log(resData);
+    // logger.info(resData);
     
     res.status(200).json({data : resData});
   } catch (error) {
-    console.log(error,id);
+    logger.info(error,id);
     res.status(404).json({ message: error.message });
   }
 }
