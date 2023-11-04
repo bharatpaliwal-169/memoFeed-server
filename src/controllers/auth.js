@@ -6,21 +6,27 @@ import mongoose from 'mongoose';
 
 //services
 import sendEmail from '../services/Email/index.js';
+import logger from '../services/Logger/index.js';
+
 dotenv.config()
 const SECRET = process.env.SECRET;
 
+
 export const login = async (req, res) => {
-  //get required vars from frontend request
+  logger.info("[controllers/auth/login] Started: login()");
   const {email,password} = req.body;
 
   try{
     const existingUser = await auth.findOne({email});
-    
+    logger.info("Login Requested by user : " + existingUser.name);
+
     if(!existingUser) {
+      logger.warn("User does not exist with mailID: " + email);
       return res.status(404).json({message: 'User does not exist'});
     }
     const isPasswordCorrect = await bcrypt.compare(password, existingUser.password);
     if(!isPasswordCorrect) {
+      logger.warn("Wrong Password recieved by user " + existingUser.name);
       return res.status(400).json({message: 'Password is incorrect'});
     }
 
@@ -32,16 +38,23 @@ export const login = async (req, res) => {
       email : existingUser.email,
       verified : existingUser.verified
     }
-    console.log(loggedInUser);
+    logger.info("Logged in Successful for User : " + loggedInUser.toString());
     res.status(200).json({result : loggedInUser,token:token });
   }
   catch(err) {
-    res.status(500).json({message: "something went wrong" + err});
+    logger.error("[controllers/auth/login] ERROR" + err);
+    res.status(500).json({message: "something went wrong"});
   }
+
+  logger.info("login() ended");
 }
 
 export const signup = async (req, res) => {
+
+  logger.info("[controllers/auth/signup] : signup() started");
+
   const {firstName,lastName,email,password} = req.body;
+  
   try {
     const existingUser = await auth.findOne({email});
     if(existingUser){
@@ -156,41 +169,6 @@ export const forgotPswdReq = async(req,res) => {
   }
   console.info("forgot password mail sent");
 };
-
-
-// export const forgotPassword = async(req,res) => {
-//   console.info("forgotPassword method started");
-//   // should fwd to changepassword
-//   const {token} = req.query;
-//   try {
-//     const decodedData = jwt.verify(token,SECRET);
-//     if(!decodedData) {
-//       console.warn("[forgotPassword] : " + decodedData + " invalid ");
-//       res.status(403).json({message:"forgot Password link expired"});
-//     }
-//     const email = decodedData?.email;
-//     if(!email){
-//       console.warn("[forgotPassword] Invalid data from " + decodedData);
-//       res.status(400).json({message:"Something went wrong",isValid:false});
-//     }
-
-//     const user = await auth.findOne({email});
-    
-//     if(!user){
-//       console.warn(`[forgotpassword] request expired ${token}`);
-//       return res.status(401).json({message:"Request expired!",isValid:false});
-//     }
-
-//     console.info(`[forgotPassword]: This user have requested FP -> ${JSON.stringify(user.name)}`);
-
-//     // fwd him to change password method
-    
-//     res.status(202).json({message:"You can now access your account",isValid:true});
-//   } catch (error) {
-//     console.error(`[forgotPassword]: ${error.message}`);
-//   }
-//   console.info("forgotPassword method completed");
-// };
 
 
 export const changePasswordReq = async(req,res) => {
