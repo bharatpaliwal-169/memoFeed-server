@@ -45,3 +45,9 @@ run.
 1) removed body-parser(depreciated),node-cron, jest,supertest, redis.
 2) app basic setup update
 3) added a new logger service : winston
+4) email templates updated.
+
+
+## Features in PIPELINE:
+1) input sanitze and restriction
+2) UI changes

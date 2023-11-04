@@ -13,7 +13,7 @@ const SECRET = process.env.SECRET;
 
 
 export const login = async (req, res) => {
-  logger.info("[controllers/auth/login] Started: login()");
+  logger.info("[controllers/auth/login] login()");
   const {email,password} = req.body;
 
   try{
@@ -45,38 +45,39 @@ export const login = async (req, res) => {
     logger.error("[controllers/auth/login] ERROR" + err);
     res.status(500).json({message: "something went wrong"});
   }
-
-  logger.info("login() ended");
 }
 
 export const signup = async (req, res) => {
 
-  logger.info("[controllers/auth/signup] : signup() started");
+  logger.info("[controllers/auth/signup] : signup()");
 
   const {firstName,lastName,email,password} = req.body;
   
   try {
     const existingUser = await auth.findOne({email});
     if(existingUser){
+      logger.warn("Found existing user with this email: " + email);
       return res.status(400).json({message : "user already exists"});
     }
 
     // enhanced passwords.
     if(!password && password.length < 6 && password.length > 20){
-      console.info("unqualified password");
+      logger.warn("weak password");
       return res.status(406).json({message:"Password lack strength"});
     }
     const salt =  await bcrypt.genSalt(10);
     const hashPassword = bcrypt.hashSync(password,salt,12);
 
     const result = await auth.create({email, password: hashPassword,name : `${firstName} ${lastName}`});
-    console.log(result);
+    logger.log(result);
     const token = jwt.sign({email : result.email, id:result._id}, SECRET, { expiresIn: "1h" });
     
     res.status(200).json({result,token});
   } catch (error) {
-    res.status(500).json({message: "something went wrong " + error.message});
+    logger.error("[controllers/auth/signup] ERROR" + error.message);
+    res.status(500).json({message: "Sign up was not completed! Try again"});
   }
+
 }
 
 export const deleteAccount = async (req, res) => {
@@ -86,26 +87,28 @@ export const deleteAccount = async (req, res) => {
     await auth.findByIdAndDelete(id);
     res.status(200).json({message : "Good Bye :( "});
   } catch (error) {
-    res.json(error.message);
+    logger.error("[controllers/auth/delete] ERROR" + error.message);
+    res.json({message: "Something went Wrong"});
   }
 }
 
 
 export const verifyUserReq = async(req,res) => {
+  
   const{email} = req.body;
-  console.info("Email verification is request by "+ email);
+  logger.info("Email verification is request by "+ email);
   try {
     const user = await auth.findOne({email});
     if(!user){
-      console.warn("[verifyUser] : Bad request from " + email);
+      logger.warn("[verifyUser] : Bad request from " + email);
       return res.status(400).json({message : "user does not exists!!"});
     }
     const token = jwt.sign( {email:user.email} ,SECRET ,{ expiresIn: "1h"});
-    console.info("Token generated for " + user.name + "  token->  " + token);
+    logger.info("Token generated for " + user.name + "  token->  " + token);
     sendEmail(user.email,"Memofeed - Email Verification","EMAILVERIFY",token,user.name);
     res.status(200).json({message:"Email have been sent."});
   } catch (error) {
-    console.error("[verifyEmailReq] : "+error.message);
+    logger.error("[verifyEmailReq] : "+error.message);
   }
 }
 
@@ -114,48 +117,48 @@ export const verifyUser = async(req,res) => {
   try {
     const decodedData = jwt.verify(token,SECRET);
     if(!decodedData) {
-      console.warn("[verifyUser] : " + decodedData + " invalid ");
+      logger.warn("[verifyUser] : " + decodedData + " invalid ");
       res.status(403).json({message:"verification link expired"});
     }
     const email = decodedData?.email;
     if(!email){
-      console.warn("[verifyUSer] Invalid data from " + decodedData);
+      logger.warn("[verifyUSer] Invalid data from " + decodedData);
       res.status(400).json({message:"Something went wrong"});
     }
     const user = await auth.findOne({email});
     if(!user){
-      console.error("invalid email entery found! " + email);
+      logger.error("invalid email entery found! " + email);
       res.status(500).json({message:"Invalid data"});
     }
     const id = user._id;
     const result = await auth.findByIdAndUpdate(id,{user,$set:{verified:true}},{new:true});
     res.status(202).json({mesage:"Email is now verified"});
   } catch (error) {
-    console.error("[verifyUser] : ERROR" + error.message);
+    logger.error("[verifyUser] : ERROR" + error.message);
   }
 }
 
 
 export const forgotPswdReq = async(req,res) => {
-  console.info("[forgotPswd method] started.");
+  logger.info("[forgotPswd method] started.");
   
   const {email} = req.body;
   try {
     const user = await auth.findOne({email});
     if(!user){
-      console.warn(`[forgotPswdReq] recieved invalid email : ${email}`);
+      logger.warn(`[forgotPswdReq] recieved invalid email : ${email}`);
       return res.status(400).json({message:"invalid email"});
     }
     
     const id = user._id ? user._id : "";
     if (!mongoose.Types.ObjectId.isValid(id)){
-      console.error(`invalid id --> ${id}`);
+      logger.error(`invalid id --> ${id}`);
       return res.status(500).json({message:"Something went wrong"});
     }
     
     const token = jwt.sign({email:user.email},SECRET, {expiresIn:"1h"});
 
-    // console.info(`[forgotPaswdReq] sent mail to user with FP request with token -> ${JSON.stringify(token)}`);
+    // logger.info(`[forgotPaswdReq] sent mail to user with FP request with token -> ${JSON.stringify(token)}`);
 
     const emailStatus = sendEmail(user.email, "MemoFeed - Forgot Password", "FORGOTPASSWORD", token,user.name);
     if(emailStatus === "OK"){
@@ -165,20 +168,20 @@ export const forgotPswdReq = async(req,res) => {
     }
   
   } catch (error) {
-    console.error(`[forgotPswdReq] ${error.message}`);
+    logger.error(`[forgotPswdReq] ${error.message}`);
   }
-  console.info("forgot password mail sent");
+  logger.info("forgot password mail sent");
 };
 
 
 export const changePasswordReq = async(req,res) => {
-  console.info("Recieved req for change pswd");
+  logger.info("Recieved req for change pswd");
   
   const {email} = req.body;
   try {
     const user = await auth.findOne({email});
     if(!user){
-      console.warn(`invalid emaild id recieved : ${email}`);
+      logger.warn(`invalid emaild id recieved : ${email}`);
       return res.status(400).json({message:"We dont have account with that email ID"});
     }
     
@@ -194,37 +197,37 @@ export const changePasswordReq = async(req,res) => {
     }
 
   } catch (error) {
-    console.error(`[changePasswordReq]:  ${JSON.stringify(error.message)}`);
+    logger.error(`[changePasswordReq]:  ${JSON.stringify(error.message)}`);
     res.status(500).json({message:"Something went wrong."});
   }
 }
 
 export const changePassword = async(req,res) => {
-  console.info("Got changePassword request ");
+  logger.info("Got changePassword request ");
 
   // const {token} = req.query;
   const {password,confirmPassword,token} = req.body;
   try {
-    console.log(token);
+    logger.log(token);
     const decodedData = jwt.verify(token,SECRET);
     if(!decodedData) {
-      console.warn("[changePassword] : " + decodedData + " invalid ");
+      logger.warn("[changePassword] : " + decodedData + " invalid ");
       res.status(403).json({message:"forgot Password link expired"});
     }
     const email = decodedData?.email;
     if(!email){
-      console.warn("[changePassword] Invalid data from " + decodedData);
+      logger.warn("[changePassword] Invalid data from " + decodedData);
       res.status(400).json({message:"Something went wrong",isValid:false});
     }
 
     const user = await auth.findOne({email});
     
     if(!user){
-      console.warn(`[changepassword] request expired ${token}`);
+      logger.warn(`[changepassword] request expired ${token}`);
       return res.status(401).json({message:"Request expired!",isValid:false});
     }
 
-    console.info(`[changePassword]: This user have requested CP -> ${JSON.stringify(user.name)}`);
+    logger.info(`[changePassword]: This user have requested CP -> ${JSON.stringify(user.name)}`);
 
 
     if(password !== confirmPassword){
@@ -232,7 +235,7 @@ export const changePassword = async(req,res) => {
     }
     
     if(!password && password.length < 6 && password.length > 20){
-      console.info("unqualified password");
+      logger.info("unqualified password");
       return res.status(406).json({message:"Password lack strength"});
     }
 
@@ -243,11 +246,11 @@ export const changePassword = async(req,res) => {
     
     const lastChangeTime = `${new Date().toDateString()} ${new Date().toTimeString()}`;
     const result = await auth.findByIdAndUpdate(id,{user,$set:{password:hashPassword}},{new:true});
-    console.info(`[changePassword] user updates at ${lastChangeTime}`);
+    logger.info(`[changePassword] user updates at ${lastChangeTime}`);
     
     res.status(202).json({message:"password changed successfully"});
   } catch (error) {
-    console.error(`[changePassword]: ${error.message}`);
+    logger.error(`[changePassword]: ${error.message}`);
   }
-  console.info("changePassword method completed");
+  logger.info("changePassword method completed");
 }
