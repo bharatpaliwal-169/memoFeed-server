@@ -203,20 +203,20 @@ export const changePasswordReq = async(req,res) => {
 }
 
 export const changePassword = async(req,res) => {
-  logger.info("Got changePassword request ");
+  logger.info("Got changePassword request");
 
   // const {token} = req.query;
   const {password,confirmPassword,token} = req.body;
+  logger.debug(token);
   try {
-    logger.log(token);
     const decodedData = jwt.verify(token,SECRET);
     if(!decodedData) {
-      logger.warn("[changePassword] : " + decodedData + " invalid ");
+      logger.warn("[changePassword] : " + decodedData.toString() + " invalid ");
       res.status(403).json({message:"forgot Password link expired"});
     }
     const email = decodedData?.email;
     if(!email){
-      logger.warn("[changePassword] Invalid data from " + decodedData);
+      logger.warn("[changePassword] Invalid data from " + decodedData.toString());
       res.status(400).json({message:"Something went wrong",isValid:false});
     }
 
