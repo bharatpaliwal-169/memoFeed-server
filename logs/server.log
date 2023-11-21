@@ -1,0 +1,206 @@
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:45:46.4646 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 11:46:05.055 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 11:46:05.055 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 11:46:05.055 - [controllers/getPosts] nothing in cache!! 
+[info] : 15-11-2023 11:46:05.055 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 11:46:05.055 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 11:46:05.055 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 11:46:05.055 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 11:46:26.2626 - Request recieved POST /login}  
+[info] : 15-11-2023 11:46:26.2626 - [controllers/auth/login] login() 
+[info] : 15-11-2023 11:46:26.2626 - Login Requested by user : Elizabeth Harmon 
+[info] : 15-11-2023 11:46:26.2626 - Logged in Successful for User : [object Object] 
+[info] : 15-11-2023 11:46:26.2626 - Response send with 200 OK;  297b sent 
+[info] : 15-11-2023 11:46:26.2626 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 11:46:26.2626 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 11:46:26.2626 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 11:46:26.2626 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 11:46:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 11:46:26.2626 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 11:46:26.2626 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 11:46:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 11:46:35.3535 - Request recieved GET /?page=2}  
+[info] : 15-11-2023 11:46:35.3535 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 11:46:35.3535 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 11:47:34.3434 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 11:47:34.3434 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 11:47:34.3434 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 11:47:34.3434 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 11:47:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 11:47:34.3434 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 11:47:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 11:47:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:02:32.3232 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:02:32.3232 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:02:32.3232 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:02:33.3333 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:02:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:02:33.3333 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:02:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:02:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:03:31.3131 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:03:31.3131 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:03:31.3131 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:03:31.3131 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:03:31.3131 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:03:31.3131 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:03:31.3131 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:03:31.3131 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:05:15.1515 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:05:15.1515 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:05:15.1515 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:05:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:05:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:05:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:05:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:05:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:06:21.2121 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:06:21.2121 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:06:21.2121 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:06:21.2121 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:06:21.2121 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:06:21.2121 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:06:21.2121 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:06:21.2121 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:07:38.3838 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:07:38.3838 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:07:38.3838 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:07:38.3838 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:07:38.3838 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:07:38.3838 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:07:38.3838 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:07:38.3838 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:09:10.1010 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:09:10.1010 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:09:10.1010 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:09:10.1010 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:09:10.1010 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:09:10.1010 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:09:11.1111 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:09:11.1111 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:09:14.1414 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:09:14.1414 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:09:14.1414 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:09:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:09:14.1414 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:09:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:09:14.1414 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:09:14.1414 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:10:12.1212 - Request recieved GET /649ad225765317333c65af63}  
+[info] : 15-11-2023 12:10:12.1212 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:10:12.1212 - Request recieved GET /search?searchQuery=none&tags=software,tech,future,A.I}  
+[info] : 15-11-2023 12:10:12.1212 - [controllers/getPostsBySearch] Started 
+[info] : 15-11-2023 12:10:12.1212 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 15-11-2023 12:10:12.1212 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:11:26.2626 - Request recieved GET /649ad225765317333c65af63}  
+[info] : 15-11-2023 12:11:26.2626 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:11:27.2727 - Request recieved GET /search?searchQuery=none&tags=software,tech,future,A.I}  
+[info] : 15-11-2023 12:11:27.2727 - [controllers/getPostsBySearch] Started 
+[info] : 15-11-2023 12:11:27.2727 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 15-11-2023 12:11:27.2727 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:20:45.4545 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:20:45.4545 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:20:45.4545 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:20:45.4545 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:20:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:20:45.4545 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:20:45.4545 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:20:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:22:50.5050 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:22:50.5050 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:22:50.5050 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:22:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:22:50.5050 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:22:50.5050 - [controllers/getPosts] nothing in cache!! 
+[info] : 15-11-2023 12:22:50.5050 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:22:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:22:50.5050 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:24:01.011 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:24:01.011 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:24:01.011 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:24:01.011 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:24:01.011 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:24:01.011 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:24:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:24:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:24:07.077 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:24:07.077 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:24:07.077 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:24:07.077 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:24:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:24:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:24:07.077 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:24:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:27:43.4343 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 12:27:43.4343 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 12:27:43.4343 - Request recieved GET /stats/630f5536b43b58b2d2c920ff}  
+[info] : 15-11-2023 12:27:43.4343 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 12:27:43.4343 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 12:27:43.4343 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 12:27:43.4343 - Response send with 200 OK;  0b sent 
+[info] : 15-11-2023 12:27:43.4343 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:19.1919 - Server Running on Port: http://localhost:5000 
+[info] : 15-11-2023 23:20:26.2626 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 23:20:26.2626 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 23:20:26.2626 - [controllers/getPosts] nothing in cache!! 
+[info] : 15-11-2023 23:20:26.2626 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 23:20:26.2626 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 23:20:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 23:20:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 23:49:00.000 - Request recieved GET /?page=1}  
+[info] : 15-11-2023 23:49:00.000 - Request recieved GET /?page=undefined}  
+[info] : 15-11-2023 23:49:00.000 - [controllers/getPosts] Sending data from cache! 
+[info] : 15-11-2023 23:49:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 15-11-2023 23:49:00.000 - [controllers/getPosts] Fetching data from DB 
+[info] : 15-11-2023 23:49:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 21-11-2023 22:12:52.5252 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:52.5252 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:52.5252 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:52.5252 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:52.5252 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:52.5252 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:57.5757 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:12:57.5757 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:24.2424 - worker 19584 died 
+[info] : 21-11-2023 22:13:24.2424 - worker 2720 died 
+[info] : 21-11-2023 22:13:24.2424 - worker 21968 died 
+[info] : 21-11-2023 22:13:24.2424 - worker 9112 died 
+[info] : 21-11-2023 22:13:24.2424 - worker 14472 died 
+[info] : 21-11-2023 22:13:24.2424 - worker 1080 died 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:30.3030 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:31.3131 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:37.3737 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:37.3737 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:37.3737 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:37.3737 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:37.3737 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:37.3737 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:39.3939 - worker 16904 died 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 
+[info] : 21-11-2023 22:13:45.4545 - Server Running on Port: http://localhost:5000 

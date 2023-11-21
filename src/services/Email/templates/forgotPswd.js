@@ -1,4 +1,4 @@
-const forgotPasswordBody = (TOKEN) => {
+const forgotPasswordBody = (TOKEN,name) => {
   return `
     <!DOCTYPE html>
     <html lang="en">
@@ -23,7 +23,7 @@ const forgotPasswordBody = (TOKEN) => {
       <h3 style="margin-bottom: 0.5rem; margin-top: 0.5rem; font-weight: 700; font-size:1.5rem;">
         Forgot Password !
       </h3>
-      <h4>Hi ${user},</h4>
+      <h4>Hi ${name},</h4>
       <p>Click on the following button to get back to your account.</p>
       
       <div style="margin-bottom: 1rem; margin-top: 0.75rem; align-items: center; justify-content: center; text-align: center;">

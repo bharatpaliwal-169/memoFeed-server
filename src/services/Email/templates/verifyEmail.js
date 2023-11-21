@@ -23,7 +23,7 @@ const verifyEmail = (TOKEN,name) => {
     <h3 style="margin-bottom: 0.5rem; margin-top: 0.5rem; font-weight: 700; font-size:1.5rem;">
       Verify your email
     </h3>
-    <h4>Hi ${user},</h4>
+    <h4>Hi ${name},</h4>
     <p>Click on the following button to verify your account.</p>
     
     <div style="margin-bottom: 1rem; margin-top: 0.75rem; align-items: center; justify-content: center; text-align: center;">
