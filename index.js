@@ -39,13 +39,14 @@ if (cluster.isPrimary) {
     cluster.fork();
   }
   cluster.on('exit', (worker, code, signal) => {
-    logger.info(`worker ${worker.process.pid} died`);
+    console.info(`worker ${worker.process.pid} died`);
     cluster.fork();
   });
 }else{
 
+  mongoose.set("strictQuery",false);
   mongoose.connect(DB_SERVER_URL)
-  .then(() => app.listen(PORT, () => logger.info(`Server Running on Port: http://localhost:${PORT}`)))
+  .then(() => app.listen(PORT, () => console.info(`Server Running on Port: http://localhost:${PORT}`)))
   .catch((error) => logger.error(`${error} did not connect`));
   
   // here /posts is the prefix that we assign to the / route
