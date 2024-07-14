@@ -1,6 +1,8 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import auth from "../models/auth.js"
+import authMessage from '../models/auth.js';
+
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 
@@ -49,12 +51,13 @@ export const login = async (req, res) => {
 
 export const signup = async (req, res) => {
 
-  logger.info("[controllers/auth/signup] : signup()");
+  logger.info("[controllers/auth/signup] : signup() func started...");
 
   const {firstName,lastName,email,password} = req.body;
   
   try {
     const existingUser = await auth.findOne({email});
+
     if(existingUser){
       logger.warn("Found existing user with this email: " + email);
       return res.status(400).json({message : "user already exists"});
@@ -68,8 +71,9 @@ export const signup = async (req, res) => {
     const salt =  await bcrypt.genSalt(10);
     const hashPassword = bcrypt.hashSync(password,salt,12);
 
-    const result = await auth.create({email, password: hashPassword,name : `${firstName} ${lastName}`});
-    logger.log(result);
+    const result = await authMessage.create({email, password: hashPassword,name : `${firstName} ${lastName}`});
+    // logger.log(`New User is created: ${JSON.stringify(result)}`);
+    
     const token = jwt.sign({email : result.email, id:result._id}, SECRET, { expiresIn: "1h" });
     
     res.status(200).json({result,token});
