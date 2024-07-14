@@ -51,3 +51,6 @@ run.
 ## Features in PIPELINE:
 1) input sanitze and restriction
 2) UI changes
+3) User Activity logs.
+4) Notifications
+5) Security and long signin with cookies.
