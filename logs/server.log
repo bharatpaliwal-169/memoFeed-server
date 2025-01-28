@@ -1,0 +1,34 @@
+[info] : 28-01-2025 16:55:15.1515 - Request recieved GET /?page=1 
+[info] : 28-01-2025 16:55:15.1515 - [controllers/getPosts] nothing in cache!! 
+[info] : 28-01-2025 16:55:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 16:55:15.1515 - Response send with 200 OK;  0b sent 
+[info] : 28-01-2025 16:56:02.022 - Request recieved POST /login 
+[info] : 28-01-2025 16:56:02.022 - [controllers/auth/login] login() 
+[info] : 28-01-2025 16:56:02.022 - Login Requested by user : Bharat Paliwal 
+[info] : 28-01-2025 16:56:02.022 - Logged in Successful for User : [object Object] 
+[info] : 28-01-2025 16:56:02.022 - Response send with 200 OK;  301b sent 
+[info] : 28-01-2025 16:56:33.3333 - Request recieved POST /verifyEmail 
+[info] : 28-01-2025 16:56:33.3333 - Email verification is request by paliwalbdevop@gmail.com 
+[info] : 28-01-2025 16:56:33.3333 - Token generated for Bharat Paliwal  token->  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGl3YWxiZGV2b3BAZ21haWwuY29tIiwiaWF0IjoxNzM4MDYzNTkzLCJleHAiOjE3MzgwNjcxOTN9.ZfhALxOI3CjWDuvrst-qC66Oy1phtnyagoZEss1YG5s 
+[info] : 28-01-2025 16:56:33.3333 - Response send with 200 OK;  35b sent 
+[error] : 28-01-2025 16:56:34.3434 - [email.js] ERROR: Invalid login: 554 5.7.8 Access Restricted. For more details, check this announcement: https://help.zoho.com/portal/en/community/topic/zoho-mail-server-details 
+[info] : 28-01-2025 16:57:28.2828 - Request recieved POST /verifyEmail 
+[info] : 28-01-2025 16:57:28.2828 - Email verification is request by paliwalbdevop@gmail.com 
+[info] : 28-01-2025 16:57:28.2828 - Token generated for Bharat Paliwal  token->  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGl3YWxiZGV2b3BAZ21haWwuY29tIiwiaWF0IjoxNzM4MDYzNjQ4LCJleHAiOjE3MzgwNjcyNDh9.jD5hM1bDrCSvSDsOZzWNEj1y06O6KotVtbgHw0o8G2c 
+[info] : 28-01-2025 16:57:28.2828 - Response send with 200 OK;  35b sent 
+[error] : 28-01-2025 16:57:28.2828 - [email.js] ERROR: Invalid login: 554 5.7.8 Access Restricted. For more details, check this announcement: https://help.zoho.com/portal/en/community/topic/zoho-mail-server-details 
+[info] : 28-01-2025 17:02:16.1616 - Request recieved POST /verifyEmail 
+[info] : 28-01-2025 17:02:16.1616 - Email verification is request by paliwalbdevop@gmail.com 
+[info] : 28-01-2025 17:02:16.1616 - Token generated for Bharat Paliwal  token->  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGl3YWxiZGV2b3BAZ21haWwuY29tIiwiaWF0IjoxNzM4MDYzOTM2LCJleHAiOjE3MzgwNjc1MzZ9.pLxaZSgTJvn7NrsqaBJL1tkr0kAQ8_VsP-lTSJ0T21o 
+[info] : 28-01-2025 17:02:16.1616 - Response send with 200 OK;  35b sent 
+[error] : 28-01-2025 17:02:17.1717 - [email.js] ERROR: Invalid login: 554 5.7.8 Access Restricted. For more details, check this announcement: https://help.zoho.com/portal/en/community/topic/zoho-mail-server-details 
+[info] : 28-01-2025 17:03:03.033 - Request recieved POST /verifyEmail 
+[info] : 28-01-2025 17:03:03.033 - Email verification is request by paliwalbdevop@gmail.com 
+[info] : 28-01-2025 17:03:03.033 - Token generated for Bharat Paliwal  token->  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGl3YWxiZGV2b3BAZ21haWwuY29tIiwiaWF0IjoxNzM4MDYzOTgzLCJleHAiOjE3MzgwNjc1ODN9.RAALsv4eI5hoFpiiHUO6d5QCs09IB1dj5nepgMi7wBY 
+[info] : 28-01-2025 17:03:03.033 - Response send with 200 OK;  35b sent 
+[error] : 28-01-2025 17:03:04.044 - [email.js] ERROR: Invalid login: 554 5.7.8 Access Restricted. For more details, check this announcement: https://help.zoho.com/portal/en/community/topic/zoho-mail-server-details 
+[info] : 28-01-2025 17:05:23.2323 - Request recieved POST /verifyEmail 
+[info] : 28-01-2025 17:05:23.2323 - Email verification is request by paliwalbdevop@gmail.com 
+[info] : 28-01-2025 17:05:23.2323 - Token generated for Bharat Paliwal  token->  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGl3YWxiZGV2b3BAZ21haWwuY29tIiwiaWF0IjoxNzM4MDY0MTIzLCJleHAiOjE3MzgwNjc3MjN9.u8rNXKXo7J1LDYERHxs3yym6KdQlwMBUdGOzq-Y_tuI 
+[info] : 28-01-2025 17:05:23.2323 - Response send with 200 OK;  35b sent 
+[error] : 28-01-2025 17:05:24.2424 - [email.js] ERROR: Invalid login: 535 Authentication Failed 
