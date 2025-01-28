@@ -55,8 +55,8 @@ export const getPosts = async (req,res) => {
   }
 };
 
-// query /posts?page=1 -> to get data from DB 
-//params /posts/:id (id===12332) -> to get some specific resource
+// query /feed?page=1 -> to get data from DB 
+//params /feed/:id (id===12332) -> to get some specific resource
 
 export const getPostsBySearch = async (req, res) => {
   logger.info("[controllers/getPostsBySearch] Started");

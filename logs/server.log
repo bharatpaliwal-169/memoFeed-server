@@ -32,3 +32,1394 @@
 [info] : 28-01-2025 17:05:23.2323 - Token generated for Bharat Paliwal  token->  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGl3YWxiZGV2b3BAZ21haWwuY29tIiwiaWF0IjoxNzM4MDY0MTIzLCJleHAiOjE3MzgwNjc3MjN9.u8rNXKXo7J1LDYERHxs3yym6KdQlwMBUdGOzq-Y_tuI 
 [info] : 28-01-2025 17:05:23.2323 - Response send with 200 OK;  35b sent 
 [error] : 28-01-2025 17:05:24.2424 - [email.js] ERROR: Invalid login: 535 Authentication Failed 
+[info] : 28-01-2025 22:09:54.5454 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:09:54.5454 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:09:54.5454 - [controllers/getPosts] nothing in cache!! 
+[info] : 28-01-2025 22:09:54.5454 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:09:54.5454 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:09:54.5454 - Response send with 200 OK;  0b sent 
+[info] : 28-01-2025 22:09:54.5454 - Response send with 200 OK;  0b sent 
+[info] : 28-01-2025 22:09:54.5454 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:09:54.5454 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:09:54.5454 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:09:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:09:54.5454 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:09:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:11:14.1414 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:11:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:11:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:11:14.1414 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:11:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:11:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:15:20.2020 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:15:20.2020 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:15:20.2020 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:15:20.2020 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:15:20.2020 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:15:20.2020 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:15:20.2020 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:15:20.2020 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:15:20.2020 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:15:20.2020 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:15:20.2020 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:15:20.2020 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:08.088 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:18:08.088 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:18:08.088 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:18:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:08.088 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:18:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:18:08.088 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:18:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:08.088 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:18:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:18:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:30.3030 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:18:30.3030 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:18:30.3030 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:18:30.3030 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:18:30.3030 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:30.3030 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:18:30.3030 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:30.3030 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:18:30.3030 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:30.3030 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:18:30.3030 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:18:30.3030 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:58.5858 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:18:58.5858 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:18:58.5858 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:18:58.5858 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:18:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:58.5858 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:18:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:58.5858 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:18:58.5858 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:18:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:18:58.5858 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:18:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:13.1313 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:19:13.1313 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:19:13.1313 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:19:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:13.1313 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:19:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:19:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:19:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:14.1414 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:19:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:19:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:53.5353 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:19:53.5353 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:19:53.5353 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:19:53.5353 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:19:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:53.5353 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:19:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:53.5353 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:19:53.5353 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:19:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:19:53.5353 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:19:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:26:48.4848 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:26:48.4848 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:26:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:26:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:26:48.4848 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:26:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:26:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:26:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:26:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:26:48.4848 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:26:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:26:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:30:09.099 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:30:09.099 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:30:09.099 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:30:09.099 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:30:09.099 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:30:09.099 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:30:09.099 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:30:09.099 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:30:09.099 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:30:09.099 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:30:09.099 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:30:09.099 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:51:03.033 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:51:03.033 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:51:04.044 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:51:04.044 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:51:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:51:04.044 - Request recieved GET /?page=1 
+[info] : 28-01-2025 22:51:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:51:04.044 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 22:51:04.044 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 22:51:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 22:51:04.044 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 22:51:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:22:07.077 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:22:07.077 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:22:07.077 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:22:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:22:07.077 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:22:07.077 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:22:08.088 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:22:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:22:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:22:08.088 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:22:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:22:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:41:27.2727 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:41:27.2727 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:41:27.2727 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:41:27.2727 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:41:27.2727 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:41:27.2727 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:41:27.2727 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:41:28.2828 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:41:28.2828 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:41:28.2828 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:41:28.2828 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:41:28.2828 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:42:12.1212 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:42:12.1212 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:42:12.1212 - [controllers/getPosts] nothing in cache!! 
+[info] : 28-01-2025 23:42:12.1212 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:42:12.1212 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:42:12.1212 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:42:12.1212 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:42:12.1212 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:42:12.1212 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:42:12.1212 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:42:12.1212 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:42:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:42:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:44:59.5959 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:44:59.5959 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:44:59.5959 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:44:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:44:59.5959 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:44:59.5959 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:44:59.5959 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:44:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:44:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:44:59.5959 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:44:59.5959 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:44:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:19.1919 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:50:19.1919 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:50:19.1919 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:50:19.1919 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:50:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:19.1919 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:50:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:19.1919 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:50:19.1919 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:50:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:19.1919 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:50:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:52.5252 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:50:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:50:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:52.5252 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:50:52.5252 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:50:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:50:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:50:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:50:52.5252 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:50:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:50:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:54:00.000 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:54:00.000 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:54:00.000 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:54:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:54:00.000 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:54:00.000 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:54:00.000 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:54:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:54:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:54:01.011 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:54:01.011 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:54:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:58:00.000 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:58:00.000 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:58:00.000 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:58:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:58:00.000 - Request recieved GET /?page=1 
+[info] : 28-01-2025 23:58:00.000 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:58:00.000 - [controllers/getPosts] Sending data from cache! 
+[info] : 28-01-2025 23:58:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:58:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:58:00.000 - Request recieved GET /?page=undefined 
+[info] : 28-01-2025 23:58:00.000 - [controllers/getPosts] Fetching data from DB 
+[info] : 28-01-2025 23:58:00.000 - Response send with 304 Not Modified;  0b sent 
+[info] : 28-01-2025 23:58:38.3838 - Request recieved GET /search?searchQuery=post&tags=undefined 
+[info] : 28-01-2025 23:58:38.3838 - [controllers/getPostsBySearch] Started 
+[info] : 28-01-2025 23:58:38.3838 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 28-01-2025 23:58:38.3838 - Response send with 200 OK;  11b sent 
+[info] : 29-01-2025 00:00:17.1717 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:00:17.1717 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:00:17.1717 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:00:21.2121 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:00:21.2121 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:00:21.2121 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:00:26.2626 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:00:26.2626 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:00:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:02:43.4343 - Request recieved GET /search?searchQuery=badminton&tags=undefined 
+[info] : 29-01-2025 00:02:43.4343 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 00:02:43.4343 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 00:02:43.4343 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:02:43.4343 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 00:02:43.4343 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:02:43.4343 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:02:43.4343 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:02:44.4444 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:02:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:02:50.5050 - Request recieved GET /search?searchQuery=badminton&tags=undefined 
+[info] : 29-01-2025 00:02:50.5050 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 00:02:50.5050 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 00:02:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:16.1616 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:03:16.1616 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:03:16.1616 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:03:16.1616 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:03:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:16.1616 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:03:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:16.1616 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:03:16.1616 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:03:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:16.1616 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:03:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:24.2424 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:03:24.2424 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:03:24.2424 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:03:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:24.2424 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:03:24.2424 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:03:24.2424 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:03:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:03:24.2424 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:03:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:03:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:07:50.5050 - Request recieved POST /login 
+[info] : 29-01-2025 00:07:50.5050 - [controllers/auth/login] login() 
+[info] : 29-01-2025 00:07:50.5050 - Login Requested by user : Bharat Paliwal 
+[info] : 29-01-2025 00:07:51.5151 - Logged in Successful for User : [object Object] 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 200 OK;  301b sent 
+[info] : 29-01-2025 00:07:51.5151 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:07:51.5151 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:07:51.5151 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:07:51.5151 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:07:51.5151 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:07:51.5151 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:07:51.5151 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:07:51.5151 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:07:51.5151 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 00:07:51.5151 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:07:51.5151 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:13:36.3636 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:13:36.3636 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:13:36.3636 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:13:36.3636 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:13:36.3636 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:13:36.3636 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:13:36.3636 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:13:36.3636 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:13:36.3636 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:13:36.3636 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:13:36.3636 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:13:36.3636 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:13:36.3636 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:13:36.3636 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:13:37.3737 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:13:37.3737 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:14:07.077 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:14:07.077 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:14:07.077 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:14:07.077 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:14:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:14:07.077 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:14:07.077 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:14:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:14:07.077 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:14:07.077 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:14:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:14:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:14:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:14:07.077 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:14:07.077 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:14:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:21:48.4848 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:21:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:21:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:21:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:21:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:21:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:21:48.4848 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:21:49.4949 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:21:49.4949 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:21:49.4949 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:21:49.4949 - [controllers/getPosts] nothing in cache!! 
+[info] : 29-01-2025 00:21:49.4949 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:21:49.4949 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:21:49.4949 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:21:49.4949 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:21:49.4949 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:21:49.4949 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:08.088 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:32:08.088 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:32:08.088 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:32:08.088 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:32:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:32:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:08.088 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:32:08.088 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:32:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:08.088 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:32:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:32:08.088 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:32:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:09.099 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:13.1313 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:32:13.1313 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:32:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:13.1313 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:32:13.1313 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:32:13.1313 - [controllers/getPosts] nothing in cache!! 
+[info] : 29-01-2025 00:32:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:32:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:13.1313 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:32:13.1313 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:32:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:32:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:32:13.1313 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:32:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:32:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:37.3737 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:37.3737 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:37.3737 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:37.3737 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:37.3737 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:37.3737 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:37.3737 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:37.3737 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:37.3737 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:37.3737 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:37.3737 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:37.3737 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:37.3737 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:38.3838 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:38.3838 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:38.3838 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:41.4141 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:41.4141 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:41.4141 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:41.4141 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:41.4141 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:41.4141 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:41.4141 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:41.4141 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:41.4141 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:41.4141 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:57.5757 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:57.5757 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:57.5757 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:57.5757 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:57.5757 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:57.5757 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:57.5757 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:57.5757 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:57.5757 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:57.5757 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:59.5959 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:59.5959 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:59.5959 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:59.5959 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:59.5959 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:34:59.5959 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:34:59.5959 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:59.5959 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:34:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:34:59.5959 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:34:59.5959 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:34:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:35:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:35:48.4848 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:35:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:35:48.4848 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:35:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:35:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:35:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:35:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:35:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:35:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:54.5454 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:35:54.5454 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:35:54.5454 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:35:54.5454 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:35:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:54.5454 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:35:54.5454 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:35:54.5454 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:35:54.5454 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:35:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:35:54.5454 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:35:54.5454 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:35:54.5454 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:44:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:44:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:44:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:44:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:44:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:44:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:44:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:44:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:44:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:44:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:44:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:44:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:45:16.1616 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:45:16.1616 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:45:16.1616 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:45:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:45:16.1616 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:45:16.1616 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:45:16.1616 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:45:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:45:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:45:16.1616 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:45:16.1616 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:45:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:26.2626 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:46:26.2626 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:46:26.2626 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:46:26.2626 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:46:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:26.2626 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:46:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:26.2626 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:46:26.2626 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:46:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:26.2626 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:46:26.2626 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:55.5555 - Request recieved POST /login 
+[info] : 29-01-2025 00:46:55.5555 - [controllers/auth/login] login() 
+[info] : 29-01-2025 00:46:55.5555 - Login Requested by user : Bharat Paliwal 
+[info] : 29-01-2025 00:46:55.5555 - Logged in Successful for User : [object Object] 
+[info] : 29-01-2025 00:46:55.5555 - Response send with 200 OK;  301b sent 
+[info] : 29-01-2025 00:46:56.5656 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:46:56.5656 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:46:56.5656 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:46:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:56.5656 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:46:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:56.5656 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:46:56.5656 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:46:56.5656 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:46:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:56.5656 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:46:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:46:56.5656 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:46:56.5656 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:46:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:47:04.044 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:47:04.044 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:47:04.044 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:47:04.044 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:47:04.044 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:47:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:47:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:47:04.044 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:47:04.044 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:47:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:47:04.044 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:47:04.044 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:47:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:47:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:47:04.044 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:47:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:54:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:54:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:54:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:54:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:54:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:54:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 00:54:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:54:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 00:54:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:54:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 00:54:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:54:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:54:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 00:54:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 00:54:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 00:54:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:00:07.077 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:00:07.077 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:00:07.077 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:00:07.077 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:00:07.077 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:00:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:00:07.077 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:00:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:00:07.077 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:00:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:00:07.077 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:00:07.077 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:00:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:00:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:00:07.077 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:00:07.077 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:04:34.3434 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:04:34.3434 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:04:34.3434 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:04:34.3434 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:04:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:04:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:04:34.3434 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:04:34.3434 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:04:34.3434 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:04:34.3434 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:04:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:04:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:04:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:04:34.3434 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:04:34.3434 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:04:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:09:39.3939 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:09:39.3939 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:09:39.3939 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:09:39.3939 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:09:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:09:39.3939 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:09:39.3939 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:09:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:09:39.3939 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:09:39.3939 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:09:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:09:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:09:39.3939 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:09:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:09:39.3939 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:09:40.4040 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:10:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:10:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:10:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:10:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:10:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:10:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:10:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:10:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:10:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:10:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:10:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:10:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:10:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:10:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:10:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:10:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:10:53.5353 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:10:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:53.5353 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:10:53.5353 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:10:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:10:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:11:56.5656 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:11:56.5656 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:11:56.5656 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:11:56.5656 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:11:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:11:56.5656 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:11:56.5656 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:11:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:11:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:11:56.5656 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:11:56.5656 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:11:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:11:56.5656 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:11:56.5656 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:11:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:11:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:12:59.5959 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:12:59.5959 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:12:59.5959 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:12:59.5959 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:12:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:12:59.5959 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:12:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:12:59.5959 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:12:59.5959 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:12:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:12:59.5959 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:12:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:12:59.5959 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:12:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:12:59.5959 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:12:59.5959 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:13:39.3939 - Request recieved GET /search?searchQuery=badminton&tags=undefined 
+[info] : 29-01-2025 01:13:39.3939 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:13:39.3939 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:13:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:13:42.4242 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:13:42.4242 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:13:42.4242 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:13:42.4242 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:13:42.4242 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:13:42.4242 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:13:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:13:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:13:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:13:48.4848 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:13:48.4848 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:13:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:15:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:15:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:15:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:15:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:15:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:15:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:15:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:15:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:15:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:15:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:15:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:15:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:15:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:15:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:15:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:15:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:16:41.4141 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:16:41.4141 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:16:41.4141 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:16:41.4141 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:16:41.4141 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:16:41.4141 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:16:42.4242 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:16:42.4242 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:16:42.4242 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:16:42.4242 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:16:42.4242 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:16:42.4242 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:17:05.055 - Request recieved POST /login 
+[info] : 29-01-2025 01:17:05.055 - [controllers/auth/login] login() 
+[info] : 29-01-2025 01:17:05.055 - Login Requested by user : Bharat Paliwal 
+[info] : 29-01-2025 01:17:05.055 - Logged in Successful for User : [object Object] 
+[info] : 29-01-2025 01:17:05.055 - Response send with 200 OK;  301b sent 
+[info] : 29-01-2025 01:17:05.055 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:17:05.055 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:17:05.055 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:17:05.055 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:17:05.055 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:17:05.055 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:17:05.055 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:17:05.055 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:17:05.055 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:17:05.055 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:17:05.055 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:17:05.055 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:17:05.055 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:17:05.055 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:17:06.066 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:17:06.066 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:19:12.1212 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:19:12.1212 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:19:12.1212 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:19:12.1212 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:19:12.1212 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:19:12.1212 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:19:12.1212 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:19:12.1212 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:19:12.1212 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:19:13.1313 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:19:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:19:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:19:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:19:13.1313 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:19:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:19:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:50.5050 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:20:50.5050 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:20:50.5050 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:20:50.5050 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:20:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:50.5050 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:20:50.5050 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:20:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:50.5050 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:20:50.5050 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:20:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:50.5050 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:20:50.5050 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:20:50.5050 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:20:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:20:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:20:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:20:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:20:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:20:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:20:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:20:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:20:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:20:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:20:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:22:45.4545 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:22:45.4545 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:22:45.4545 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:22:45.4545 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:22:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:22:45.4545 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:22:45.4545 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:22:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:22:45.4545 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:22:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:22:45.4545 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:22:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:22:45.4545 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:22:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:22:45.4545 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:22:45.4545 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:24.2424 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:23:24.2424 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:23:24.2424 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:23:24.2424 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:23:24.2424 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:23:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:24.2424 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:23:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:24.2424 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:23:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:24.2424 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:23:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:24.2424 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:23:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:24.2424 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:23:24.2424 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:32.3232 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:23:32.3232 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:23:32.3232 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:23:32.3232 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:23:32.3232 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:32.3232 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:23:32.3232 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:23:32.3232 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:32.3232 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:23:32.3232 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:23:32.3232 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:32.3232 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:32.3232 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:32.3232 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:23:32.3232 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:23:32.3232 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:35.3535 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:23:35.3535 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:23:35.3535 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:23:35.3535 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:23:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:35.3535 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:23:35.3535 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:23:35.3535 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:23:35.3535 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:23:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:23:35.3535 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:23:35.3535 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:23:35.3535 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:08.088 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:30:08.088 - Request recieved GET /?page=2 
+[info] : 29-01-2025 01:30:08.088 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:30:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:08.088 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:30:08.088 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:30:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:08.088 - Request recieved GET /?page=2 
+[info] : 29-01-2025 01:30:08.088 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:30:08.088 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:30:08.088 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:30:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:08.088 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:08.088 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:25.2525 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:30:25.2525 - Request recieved GET /?page=2 
+[info] : 29-01-2025 01:30:25.2525 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:30:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:25.2525 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:30:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:25.2525 - Request recieved GET /?page=2 
+[info] : 29-01-2025 01:30:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:25.2525 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:30:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:30:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:30:31.3131 - Request recieved GET /64943e47c952679ecd4376c5 
+[info] : 29-01-2025 01:30:31.3131 - Response send with 200 OK;  782b sent 
+[info] : 29-01-2025 01:30:31.3131 - Request recieved GET /64943e47c952679ecd4376c5 
+[info] : 29-01-2025 01:30:31.3131 - Request recieved GET /search?searchQuery=none&tags=life,post,motivation,everyday,post 
+[info] : 29-01-2025 01:30:31.3131 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:30:31.3131 - Response send with 200 OK;  782b sent 
+[info] : 29-01-2025 01:30:31.3131 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:30:31.3131 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:30:31.3131 - Request recieved GET /search?searchQuery=none&tags=life,post,motivation,everyday,post 
+[info] : 29-01-2025 01:30:31.3131 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:30:32.3232 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:30:32.3232 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:30:35.3535 - Request recieved GET /648ddffef5976e188435826c 
+[info] : 29-01-2025 01:30:35.3535 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:30:35.3535 - Request recieved GET /search?searchQuery=none&tags=chess,tech,post 
+[info] : 29-01-2025 01:30:35.3535 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:30:35.3535 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:30:35.3535 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:05.055 - Request recieved GET /648ddffef5976e188435826c 
+[info] : 29-01-2025 01:32:05.055 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:05.055 - Request recieved GET /648ddffef5976e188435826c 
+[info] : 29-01-2025 01:32:05.055 - Request recieved GET /search?searchQuery=none&tags=chess,tech,post 
+[info] : 29-01-2025 01:32:05.055 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:32:05.055 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:05.055 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:32:05.055 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:05.055 - Request recieved GET /search?searchQuery=none&tags=chess,tech,post 
+[info] : 29-01-2025 01:32:05.055 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:32:05.055 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:32:05.055 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:32:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:32:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:32:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:32:15.1515 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:32:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:32:15.1515 - [controllers/getPosts] nothing in cache!! 
+[info] : 29-01-2025 01:32:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:32:15.1515 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:32:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:32:15.1515 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:32:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:32:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:32:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:32:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:32:19.1919 - Request recieved GET /?page=2 
+[info] : 29-01-2025 01:32:19.1919 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:32:19.1919 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:22.2222 - Request recieved GET /?page=3 
+[info] : 29-01-2025 01:32:22.2222 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:32:22.2222 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:37.3737 - Request recieved GET /62aec2ee66bb142383546afb 
+[info] : 29-01-2025 01:32:37.3737 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:37.3737 - Request recieved GET /62aec2ee66bb142383546afb 
+[info] : 29-01-2025 01:32:37.3737 - Request recieved GET /search?searchQuery=none&tags=about,mern,webapp,author 
+[info] : 29-01-2025 01:32:37.3737 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:32:37.3737 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:32:37.3737 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:37.3737 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:32:37.3737 - Request recieved GET /search?searchQuery=none&tags=about,mern,webapp,author 
+[info] : 29-01-2025 01:32:37.3737 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:32:37.3737 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:32:37.3737 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:33:55.5555 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:33:55.5555 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:33:55.5555 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:33:55.5555 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:33:55.5555 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:33:55.5555 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:55.5555 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:33:55.5555 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:55.5555 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:33:55.5555 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:33:55.5555 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:55.5555 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:33:55.5555 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:56.5656 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:33:56.5656 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:33:56.5656 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:57.5757 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:33:57.5757 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:33:57.5757 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:33:57.5757 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:33:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:57.5757 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:33:57.5757 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:33:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:57.5757 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:33:57.5757 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:33:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:57.5757 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:33:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:33:57.5757 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:33:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:13.1313 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:13.1313 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:13.1313 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:13.1313 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:13.1313 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:13.1313 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:13.1313 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:13.1313 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:13.1313 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:13.1313 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:14.1414 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:14.1414 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:14.1414 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:14.1414 - [controllers/getPosts] nothing in cache!! 
+[info] : 29-01-2025 01:34:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:14.1414 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:14.1414 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:14.1414 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:15.1515 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:15.1515 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:16.1616 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:16.1616 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:16.1616 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:22.2222 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:22.2222 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:22.2222 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:22.2222 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:22.2222 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:22.2222 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:34:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:22.2222 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:34:22.2222 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:34:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:22.2222 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:34:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:34:22.2222 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:34:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:03.033 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:03.033 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:03.033 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:03.033 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:03.033 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:03.033 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:03.033 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:03.033 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:03.033 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:03.033 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:03.033 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:04.044 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:04.044 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:04.044 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:33.3333 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:33.3333 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:33.3333 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:33.3333 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:33.3333 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:33.3333 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:33.3333 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:33.3333 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:33.3333 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:33.3333 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:38.3838 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:38.3838 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:38.3838 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:39.3939 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:39.3939 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:39.3939 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:39.3939 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:39.3939 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:39.3939 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:39.3939 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:44.4444 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:44.4444 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:44.4444 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:44.4444 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:35:44.4444 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:44.4444 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:44.4444 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:35:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:44.4444 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:35:44.4444 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:35:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:35:44.4444 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:35:44.4444 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:02.022 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:44:02.022 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:44:02.022 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:44:02.022 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:44:02.022 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:02.022 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:44:02.022 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:02.022 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:02.022 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:44:02.022 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:44:02.022 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:02.022 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:02.022 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:02.022 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:44:02.022 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:02.022 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:25.2525 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:44:25.2525 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:44:25.2525 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:44:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:25.2525 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:44:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:25.2525 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:44:25.2525 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:44:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:25.2525 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:44:25.2525 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:44:25.2525 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:25.2525 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:29.2929 - Request recieved GET /?page=3 
+[info] : 29-01-2025 01:44:29.2929 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:29.2929 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:44:33.3333 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:44:33.3333 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:44:33.3333 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:44:33.3333 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:44:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:33.3333 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:44:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:33.3333 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:33.3333 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:44:33.3333 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:44:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:44:33.3333 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:44:33.3333 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:44:33.3333 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:52.5252 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:56:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:56:52.5252 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:56:52.5252 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:56:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:52.5252 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:56:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:52.5252 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:56:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:52.5252 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:53.5353 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:56:53.5353 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:56:53.5353 - [controllers/getPosts] nothing in cache!! 
+[info] : 29-01-2025 01:56:53.5353 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:56:53.5353 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:56:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:53.5353 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:58.5858 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:56:58.5858 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:56:58.5858 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:56:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:58.5858 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:56:58.5858 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:56:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:58.5858 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:56:58.5858 - [controllers/getPosts] nothing in cache!! 
+[info] : 29-01-2025 01:56:58.5858 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:56:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:58.5858 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:56:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:58.5858 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:56:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:56:58.5858 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:56:58.5858 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:01.011 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:57:01.011 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:57:01.011 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:57:01.011 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:57:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:01.011 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:57:01.011 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:57:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:01.011 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:57:01.011 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:57:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:01.011 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:57:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:01.011 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:57:01.011 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:14.1414 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:57:14.1414 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:57:14.1414 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:57:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:57:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:14.1414 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:57:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:57:14.1414 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:57:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:14.1414 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:57:14.1414 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:57:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:14.1414 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:57:14.1414 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:17.1717 - Request recieved GET /?page=2 
+[info] : 29-01-2025 01:57:17.1717 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:57:17.1717 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:57:22.2222 - Request recieved GET /?page=3 
+[info] : 29-01-2025 01:57:22.2222 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:57:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:19.1919 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:59:19.1919 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:19.1919 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:19.1919 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:59:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:19.1919 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:59:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:19.1919 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:19.1919 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:19.1919 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:59:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:19.1919 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:19.1919 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:19.1919 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:23.2323 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:59:23.2323 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:23.2323 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:23.2323 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:59:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:23.2323 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:59:23.2323 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:23.2323 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:23.2323 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:59:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:23.2323 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:23.2323 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:23.2323 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:39.3939 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:59:39.3939 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:39.3939 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:39.3939 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:59:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:39.3939 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:39.3939 - Request recieved GET /?page=1 
+[info] : 29-01-2025 01:59:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:39.3939 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:39.3939 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 01:59:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:39.3939 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:39.3939 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:39.3939 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:42.4242 - Request recieved GET /655cabc12d0105aeb45006a9 
+[info] : 29-01-2025 01:59:43.4343 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:59:43.4343 - Request recieved GET /655cabc12d0105aeb45006a9 
+[info] : 29-01-2025 01:59:43.4343 - Request recieved GET /search?searchQuery=none&tags=tech,post 
+[info] : 29-01-2025 01:59:43.4343 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:59:43.4343 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:59:43.4343 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:59:43.4343 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:59:43.4343 - Request recieved GET /search?searchQuery=none&tags=tech,post 
+[info] : 29-01-2025 01:59:43.4343 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:59:43.4343 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:59:43.4343 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:59:48.4848 - Request recieved GET /search?searchQuery=badminton&tags=undefined 
+[info] : 29-01-2025 01:59:48.4848 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:59:48.4848 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:59:48.4848 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:59:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:48.4848 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:48.4848 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 01:59:48.4848 - Response send with 200 OK;  0b sent 
+[info] : 29-01-2025 01:59:48.4848 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 01:59:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:48.4848 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 01:59:48.4848 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 01:59:57.5757 - Request recieved GET /search?searchQuery=badminton&tags=undefined 
+[info] : 29-01-2025 01:59:57.5757 - [controllers/getPostsBySearch] Started 
+[info] : 29-01-2025 01:59:57.5757 - [controllers/getPostsBySearch] Ended Successfully. 
+[info] : 29-01-2025 01:59:57.5757 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:22.2222 - Request recieved GET /?page=1 
+[info] : 29-01-2025 02:01:22.2222 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 02:01:22.2222 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 02:01:22.2222 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 02:01:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:22.2222 - Request recieved GET /?page=1 
+[info] : 29-01-2025 02:01:22.2222 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 02:01:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:22.2222 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 02:01:22.2222 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 02:01:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:22.2222 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 02:01:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:22.2222 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 02:01:22.2222 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:34.3434 - Request recieved GET /?page=1 
+[info] : 29-01-2025 02:01:34.3434 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 02:01:34.3434 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 02:01:34.3434 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 02:01:34.3434 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 02:01:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:34.3434 - Request recieved GET /?page=1 
+[info] : 29-01-2025 02:01:34.3434 - Request recieved GET /stats/64942551bbbe37b02b285615 
+[info] : 29-01-2025 02:01:34.3434 - [controllers/getPosts] Sending data from cache! 
+[info] : 29-01-2025 02:01:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:34.3434 - Response send with 304 Not Modified;  0b sent 
+[info] : 29-01-2025 02:01:34.3434 - Request recieved GET /?page=undefined 
+[info] : 29-01-2025 02:01:34.3434 - [controllers/getPosts] Fetching data from DB 
+[info] : 29-01-2025 02:01:34.3434 - Response send with 304 Not Modified;  0b sent 

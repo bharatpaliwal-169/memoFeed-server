@@ -49,8 +49,8 @@ if (cluster.isPrimary) {
   .then(() => app.listen(PORT, () => console.info(`Server Running on Port: http://localhost:${PORT}`)))
   .catch((error) => logger.error(`${error} did not connect`));
   
-  // here /posts is the prefix that we assign to the / route
-  app.use('/posts',postRoutes);
+  // here /feed is the prefix that we assign to the / route
+  app.use('/feed',postRoutes);
   
   //authentication
   app.use('/auth',authRoutes);

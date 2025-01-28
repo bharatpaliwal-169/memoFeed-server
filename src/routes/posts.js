@@ -3,7 +3,7 @@ import express from 'express';
 
 // all routes and mapping are done here 
 
-// // here it will work on http://localhost:5000/posts
+// // here it will work on http://localhost:5000/feed
 // const router = express.Router();
 // router.get('/', (req,res) => { // basic callback function that will get executes when someone hits / route
 //   res.send("This is working");
