@@ -1,0 +1,5 @@
+[info] : 31-01-2025 02:02:40.4040 - Request recieved POST /forgotpswd/request 
+[info] : 31-01-2025 02:02:40.4040 - [forgotPswd method] started. 
+[info] : 31-01-2025 02:02:40.4040 - forgot password mail sent 
+[info] : 31-01-2025 02:02:40.4040 - Response send with 200 OK;  38b sent 
+[info] : 31-01-2025 02:02:41.4141 - [email.js] {"accepted":["paliwalbdevop@gmail.com"],"rejected":[],"ehlo":["AUTH LOGIN PLAIN","SIZE 53477376"],"envelopeTime":190,"messageTime":419,"messageSize":2712,"response":"250 Message received","envelope":{"from":"paliwalbharat2001@zohomail.in","to":["paliwalbdevop@gmail.com"]},"messageId":"<3e9499f5-e4ee-2dcd-2159-591dcb50617c@zohomail.in>"} 

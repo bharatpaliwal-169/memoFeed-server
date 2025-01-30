@@ -11,12 +11,12 @@ dotenv.config()
 const sendEmail = (reciptent,subject,type,TOKEN,name) =>{
   const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
-    secure: process.env.EMAIL_SECURE,
     port: process.env.EMAIL_PORT,
     auth: {
       user: process.env.EMAIL_ID,
       pass: process.env.EMAIL_PASS,
     },
+    secure: process.env.EMAIL_SECURE,
   });
   var body = "";
   switch (type) {
