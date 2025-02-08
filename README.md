@@ -50,7 +50,28 @@ run.
 
 ## Features in PIPELINE:
 1) input sanitze and restriction
-2) UI changes
 3) User Activity logs.
 4) Notifications
 5) Security and long signin with cookies.
+
+Colons can be used to align columns.
+
+| Features        | Status           | Remarks  |
+| ------------- |:-------------:| -----:|
+| input sanitze and restriction     | `pending`      |   NA |
+| User Activity logs.     | `pending`      |   NA |
+| Notifications    | `pending`      |   NA |
+| Security and long signin with cookies.     | `pending`      |   NA |
+
+
+## NOTE README - Table component 
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+

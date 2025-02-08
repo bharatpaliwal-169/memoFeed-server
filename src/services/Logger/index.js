@@ -20,13 +20,13 @@ const logger = winston.createLogger({
     }),
 
     //dev-prod - file
-    new winston.transports.File({
-      //path to log folder from root
-      filename: './logs/server.log',
-      format: format.combine(
-        logFormat
-      )
-    }),
+    // new winston.transports.File({
+    //   //path to log folder from root
+    //   filename: './logs/server.log',
+    //   format: format.combine(
+    //     logFormat
+    //   )
+    // }),
   ],
   exitOnError: false
 });
