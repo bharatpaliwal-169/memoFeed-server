@@ -1,8 +1,7 @@
 import express from 'express';
 
 import {login,signup,deleteAccount, verifyUserReq,verifyUser,
-  // forgotPassword,
-  forgotPswdReq,changePassword,changePasswordReq
+  forgotPswdReq,changePassword,changePasswordReq,GoogleAuth
 } from '../controllers/auth.js';
 
 import logMid from '../middleware/logMiddleware.js';
@@ -12,6 +11,8 @@ const router = express.Router();
 router.post('/login',logMid, login);
 router.post('/signup',logMid, signup);
 router.delete('/deleteAccount/:id',logMid, deleteAccount);
+router.post('/google', logMid, GoogleAuth);
+
 
 router.post('/verifyEmail',logMid,verifyUserReq);
 router.get('/verification',logMid,verifyUser);

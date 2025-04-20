@@ -1,5 +1,6 @@
 import mongoose from 'mongoose'
 import express from "express"
+import generateUID from 'bharat-id-generator';
 
 import PostMessage from '../models/postMessage.js';
 import client from '../services/Cache/redis.js'
@@ -91,7 +92,8 @@ export const getPost = async (req, res) => {
 export const createPost = async(req, res) => {
   
   const post = req.body;
-  const newPost = new PostMessage({ ...post, creator: req.userId, createdAt: new Date().toISOString()});
+  const story_id = generateUID("MEM")
+  const newPost = new PostMessage({ ...post, creator: req.userId, createdAt: new Date().toISOString(),story_id});
   try {
     if(post.title.length > 30 || post.message.length > 5000 || post.tags.length > 10){
       console.warn("invalid data in post")
@@ -106,16 +108,11 @@ export const createPost = async(req, res) => {
 }
 
 export const updatePost = async(req, res) => {
-  // const {id: _id } = req.params; //during the destruct we can remane the variable
-  // const updatedpost = req.body; // updated version of post is comming from frontend.
-  // if( !mongoose.Types.ObjectId.isValid(_id)) {
-  //   return res.status(404).send('No post with that Id!');
-  // }
-  // await PostMessage.findByIdAndUpdate(id , updatedpost, {new : true});
-  // res.json(updatedPost)
+  
   const cacheKey = (process.env.CACHE_KEY).toString();
   const { id } = req.params;
   const { title, message, creator, selectedFile, tags } = req.body;
+  
   try {
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
     const updatedPost = { creator, title, message, tags, selectedFile, _id: id };
@@ -124,12 +121,11 @@ export const updatePost = async(req, res) => {
       client.del(cacheKey)
   
       res.status(200).json({message:`Post updated successfully ${updatedPost}`});
-    } catch (error) {
-      logger.info("ERROR in updatePost fn "+ error.toString());
-      res.status(500).json({message : " Something went wrong "});
-
-    }
-    flag = true;
+  } catch (error) {
+    logger.info("ERROR in updatePost fn "+ error.toString());
+    res.status(500).json({message : " Something went wrong "});
+  }
+  flag = true;
 }
 
 export const deletePost = async (req, res) =>{
@@ -147,26 +143,8 @@ export const deletePost = async (req, res) =>{
   flag = true;
 }
 
-
-// export const likePost = async (req, res) => {
-//   const { id } = req.params;
-//   if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
-//   const post = await PostMessage.findById(id);
-
-//   if(!req.userId) return res.json({ message : "Unauthenticated user"});
-//   const index = post.likes.findIndex((id)=> id === String(req.userId));
-//   if(index === -1) post.likes.push(req.userId);
-//   else{
-//     post.likes = post.likes.filter((id)=>id!== String(req.userId));
-//   }
-
-//   const updatedCurrPost = await PostMessage.findByIdAndUpdate(id , post ,{new:true});  
-//   res.json(updatedCurrPost);
-// }
-
 export const likePost = async (req, res) => {
     const { id } = req.params;
-    // logger.info(req.userId);
     if (!req.userId) {
         return res.json({ message: "Unauthenticated" });
       }

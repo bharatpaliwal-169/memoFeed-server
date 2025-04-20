@@ -1,18 +1,20 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import auth from "../models/auth.js"
-import authMessage from '../models/auth.js';
-
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import generateUID from "bharat-id-generator";
+import {OAuth2Client} from "google-auth-library";
+//schema
+import auth from "../models/auth.js"
 
 //services
 import sendEmail from '../services/Email/index.js';
 import logger from '../services/Logger/index.js';
 
+
 dotenv.config()
 const SECRET = process.env.SECRET;
-
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 export const login = async (req, res) => {
   logger.info("[controllers/auth/login] login()");
@@ -71,7 +73,8 @@ export const signup = async (req, res) => {
     const salt =  await bcrypt.genSalt(10);
     const hashPassword = bcrypt.hashSync(password,salt,12);
 
-    const result = await authMessage.create({email, password: hashPassword,name : `${firstName} ${lastName}`});
+    const user_id = generateUID("MEM");
+    const result = await auth.create({email, password: hashPassword,name : `${firstName} ${lastName}`,user_id});
     // logger.log(`New User is created: ${JSON.stringify(result)}`);
     
     const token = jwt.sign({email : result.email, id:result._id}, SECRET, { expiresIn: "1h" });
@@ -257,4 +260,35 @@ export const changePassword = async(req,res) => {
     logger.error(`[changePassword]: ${error.message}`);
   }
   logger.info("changePassword method completed");
+}
+
+
+export const GoogleAuth = async(req,res) => {
+  const {credential} = req.body;
+  try{
+    const ticket = await client.verifyIdToken({
+      idToken : credential,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    })
+    
+    const payload = ticket.getPayload();
+
+    logger.info("payload " + payload.toString());
+
+    let user = await auth.findOne({email:payload.email});
+    if(!user){
+      const user_id = generateUID("MEM");
+      user = await auth.create({
+        email: payload.email, name: payload.name,google_id:payload.sub,user_id
+      });
+    }
+
+    logger.info(user);
+
+    const token = jwt.sign({email : user.email, id:user._id}, SECRET, { expiresIn: "1h" });
+    res.status(200).json({result: user,token});
+  }catch(error){
+    logger.error(`Google Auth Error : ${error.toString()}`);
+    res.status(401).json({message: "Invalid Google Token!!"});
+  }
 }

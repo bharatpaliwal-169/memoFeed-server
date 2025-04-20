@@ -7,7 +7,8 @@ import cluster from 'cluster';
 import os from 'os';
 import compression from 'compression';
 import helmet from 'helmet';
-
+import session from "express-session";
+import ExpressMongoSanitize from 'express-mongo-sanitize';
 //services
 import limiter from './src/middleware/rateLimiter.js';
 import logger from './src/services/Logger/index.js'
@@ -21,9 +22,20 @@ app.use(helmet());
 app.use(express.json({limit: "50mb",extended : true}));
 app.use(express.urlencoded({limit: "50mb",extended : true}));
 app.use(cors());
+
+//test env
+app.options('*',cors());
+
 app.use(compression());
+// app.use(xss());
+app.use(ExpressMongoSanitize());
 app.use(limiter);
+
 dotenv.config()
+
+app.use(session({
+  secret: process.env.SECRET,resave:false,saveUninitialized:true
+}))
 
 //DB connection
 const PORT = process.env.MY_PORT|| process.env.PORT;

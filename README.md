@@ -58,6 +58,7 @@ Colons can be used to align columns.
 
 | Features        | Status           | Remarks  |
 | ------------- |:-------------:| -----:|
+| Google O-Auth     | `development`      |   NA |
 | input sanitze and restriction     | `pending`      |   NA |
 | User Activity logs.     | `pending`      |   NA |
 | Notifications    | `pending`      |   NA |

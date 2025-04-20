@@ -26,6 +26,7 @@ const postSchema = mongoose.Schema({
       type: Date,
       default: new Date(),
   },
+  story_id: { type: String, unique: true}
 })
 
 // now we will convert this schema into a model with which we will be able to CRUD.
