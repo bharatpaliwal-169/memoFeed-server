@@ -29,14 +29,14 @@ export const getPosts = async (req,res) => {
         
         const cachedData = client.get(cacheKey);
         if(cachedData === null || cachedData === undefined || cachedData === ""){
-          logger.info("[controllers/getPosts] nothing in cache!!");
+          logger.info("[getPosts] nothing in cache!!");
         }else{
-          logger.info("[controllers/getPosts] Sending data from cache!");
+          logger.info("[getPosts] Sending data from cache!");
           return res.status(200).json({data : JSON.parse(cachedData), currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
         }
       }
       
-      logger.info("[controllers/getPosts] Fetching data from DB");
+      logger.info("[getPosts] Fetching data from DB");
       //FetchFromDB
       const posts = await PostMessage.find().sort({_id:-1}).limit(LIMIT).skip(startIndex);
       if(page==1){
@@ -48,10 +48,10 @@ export const getPosts = async (req,res) => {
       res.status(200).json({data : posts,currentPage: Number(page),NumberOfPages: Math.ceil(total/LIMIT)});
     
     } catch (error) {
-      logger.error("[controllers/getPosts] ERROR : " + error.toString());
+      logger.error("[getPosts] ERROR : " + error.toString());
     }
   } catch (error) {
-    logger.error("[controllers/getPosts] ERROR");
+    logger.error("[getPosts] ERROR");
     res.status(404).json({message: "Something went wrong"});
   }
 };
@@ -60,7 +60,7 @@ export const getPosts = async (req,res) => {
 //params /feed/:id (id===12332) -> to get some specific resource
 
 export const getPostsBySearch = async (req, res) => {
-  logger.info("[controllers/getPostsBySearch] Started");
+  logger.info("[getPostsBySearch] Started...");
   const {searchQuery,tags} = req.query;
   
   try {
@@ -69,9 +69,10 @@ export const getPostsBySearch = async (req, res) => {
     res.status(200).json({data:posts});
     
   } catch (error) {
-    res.status(404).json({message: error.message});
+    logger.error("Error occured in getPostBySearch: " + error.toString());
+    res.status(404).json({message: "Not Found !!"});
   }
-  logger.info("[controllers/getPostsBySearch] Ended Successfully.");
+  logger.info("[getPostsBySearch] Ended Successfully.");
 }
 
 

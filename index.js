@@ -9,6 +9,7 @@ import compression from 'compression';
 import helmet from 'helmet';
 import session from "express-session";
 import ExpressMongoSanitize from 'express-mongo-sanitize';
+import cookieParser from 'cookie-parser';
 //services
 import limiter from './src/middleware/rateLimiter.js';
 import logger from './src/services/Logger/index.js'
@@ -22,7 +23,7 @@ app.use(helmet());
 app.use(express.json({limit: "50mb",extended : true}));
 app.use(express.urlencoded({limit: "50mb",extended : true}));
 app.use(cors());
-
+app.use(cookieParser())
 //test env
 app.options('*',cors());
 
@@ -64,9 +65,12 @@ if (cluster.isPrimary) {
   // here /feed is the prefix that we assign to the / route
   app.use('/feed',postRoutes);
   
+  
   //authentication
   app.use('/auth',authRoutes);
   
+
+  //defaults
   app.get('/',(req, res) => {
     res.send("APP is UP n RUNNING");
   });

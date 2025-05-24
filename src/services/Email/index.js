@@ -45,7 +45,7 @@ const sendEmail = (reciptent,subject,type,TOKEN,name) =>{
         logger.error(`[email.js] ERROR: ${err.message}`);
         return "ERROR"
       }else{
-        logger.info(`[email.js] ${JSON.stringify(info)}`);
+        logger.info(`[email.js] ${info}`);
       }
     });
     return "OK";
